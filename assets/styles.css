@@ -41,8 +41,12 @@ body{
     font-size: var(--type);
     line-height: var(--leading);
     cursor: url("cursors/blue-cursor.png"), pointer;
-    /* cursor: url("cursors/cursor.svg"), pointer; */
 }
+
+/* #back-to-top{
+    transition: 1s;
+    transform: translate(0,0);
+} */
 /* 
 iframe{
     width: 600px;
@@ -106,7 +110,7 @@ section{
 
 .project-info:hover{
     color: rgb(152, 152, 152);
-    /* cursor: pointer; */
+    /* cursor: url("cursors/blue-cursor.png"), pointer; */
 }
 
 .project-name{
@@ -188,7 +192,7 @@ p{
 }
 
 .orange-cursor{
-    cursor: url("cursors/orange-cursor.png"), auto;
+    cursor: url("cursors/orange-cursor.png"), pointer;
 }
 
 #light-pink{
@@ -196,7 +200,7 @@ p{
 }
 
 .pink-cursor{
-    cursor: url("cursors/pink-cursor.png"), auto;
+    cursor: url("cursors/pink-cursor.png"), pointer;
 }
 
 #bright-green{
@@ -224,7 +228,7 @@ p{
 }
 
 .bright-green-cursor{
-    cursor: url("cursors/bright-green-cursor.png"), auto;
+    cursor: url("cursors/bright-green-cursor.png"), pointer;
 }
 
 /* project toggle stuff */

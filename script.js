@@ -12,6 +12,9 @@ const bright = document.querySelector('.bright');
 const brightInfo = document.querySelector('.bright-info');
 const brightClose = document.querySelector('#bright-close');
 
+function scrollToTop(){
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
 
 eggsploration.onclick = () =>{
     console.log('hi')

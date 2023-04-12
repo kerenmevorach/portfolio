@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Boob Stickers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="boobstyles.css">
+
+  </head>
+  <body>
+
+  <div class="content">
+    <h1>boob stickers</h1>
+
+    <div class="container"></div>
+
+      <div class="labels">
+          <div id="boobbox">
+
+
+            <fieldset>
+              <fieldset>
+              
+                <div class="side-by-side">
+                  <h2></h2>
+                  <h3>width</h3>
+                  <h3>height</h3>
+                  <h3>rotation</h3>
+                </div>
+
+                <div class="side-by-side">
+
+                  <legend><h2>left boob</h2></legend>
+                    <li>
+                    <!-- <label for="width">width ↔</label> -->
+                    <input
+                      type="range"
+                      min="30"
+                      max="88"
+                      name="width"
+                      id="leftwidth"
+                      value="100"
+                    />
+                    </li>
+                    <li>
+                      <!-- <label for="height">height ↕</label> -->
+                      <input
+                        type="range"
+                        min="30"
+                        max="88"
+                        name="height"
+                        id="leftheight"
+                        value="100"
+                      />
+                    </li>
+                    <li>
+                      <!-- <label for="rotation">rotation ↻</label> -->
+                      <input
+                        type="range"
+                        min="-30"
+                        max="50"
+                        name="rotation"
+                        id="leftrotation"
+                        value="0"
+                      />
+                    </li>
+                </div>
+
+                <div class="side-by-side">
+                  <legend><h2>right boob</h2></legend>
+                    <!-- <label for="rightwidth">width ↔</label> -->
+                    <input
+                    type="range"
+                    min="30"
+                    max="88"
+                    name="rightwidth"
+                    id="rightwidth"
+                    value="100"
+                  />
+                </li>
+                <li>
+                  <!-- <label for="rightheight">height ↕</label> -->
+                  <input
+                    type="range"
+                    min="30"
+                    max="88"
+                    name="rightheight"
+                    id="rightheight"
+                    value="100"
+                  />
+                </li>
+                <li>
+                  <!-- <label for="rightrotation">rotation ↻</label> -->
+                  <input
+                    type="range"
+                    min="-30"
+                    max="50"
+                    name="rightrotation"
+                    id="rightrotation"
+                    value="0"
+                  />
+                </li>
+                </div>
+
+              
+              </div>
+
+                <div id="nipplebox">
+
+                  <div class="side-by-side">
+                    <h2></h2>
+                    <h3>size</h3>
+                    <h3>location ↔</h3>
+                    <h3>location ↕</h3>
+                  </div>
+
+                  <fieldset>
+                    
+                        <div class="side-by-side">
+                          <legend><h2>left nipple</h2></legend>
+                          <li>
+                            <!-- <label for="leftnipplesize">size</label> -->
+                            <input
+                              type="range"
+                              min="5"
+                              max="26"
+                              name="leftnipplesize"
+                              id="leftnipplesize"
+                              value="15"
+                            />
+                          </li>
+          
+                            <li>
+                            <!-- <label for="leftnipplehorizontalposition">location ↔</label> -->
+                            <input
+                              type="range"
+                              min="-45"
+                              max="45"
+                              name="leftnipplehorizontalposition"
+                              id="leftnipplehorizontalposition"
+                              value="0"
+                            />
+                          </li>
+          
+                          <li>
+                            <!-- <label for="leftnippleverticalposition">location ↕</label> -->
+                            <input
+                              type="range"
+                              min="-45"
+                              max="45"
+                              name="leftnippleverticalposition"
+                              id="leftnippleverticalposition"
+                              value="15"
+                            />
+                          </li>
+                        </div>
+
+                        <div class="side-by-side">
+                          <h2>right nipple</h2>
+                          <!-- <label for="rightnipplesize">size</label> -->
+                          <input
+                            type="range"
+                            min="5"
+                            max="26"
+                            name="rightnipplesize"
+                            id="rightnipplesize"
+                            value="15"
+                          />
+                        </li>
+          
+                        <li>
+                          <!-- <label for="rightnipplehorizontalposition">location ↔</label> -->
+                          <input
+                            type="range"
+                            min="130"
+                            max="220"
+                            name="rightnipplehorizontalposition"
+                            id="rightnipplehorizontalposition"
+                            value="168"
+                          />
+                        </li>
+          
+                        <li>
+                          <!-- <label for="rightnippleverticalposition">location ↕</label> -->
+                          <input
+                            type="range"
+                            min="-45"
+                            max="50"
+                            name="rightnippleverticalposition"
+                            id="rightnippleverticalposition"
+                            value="15"
+                            />
+                          </li>
+          
+                      </div>
+
+              <div>
+                <ul class="skintone side-by-side">
+                  <li>
+                    <label for="skincolorslider"><h2>skin tone</h2></label>
+                  </li>
+                  <li id="nudge">
+                    <input
+                      type="range"
+                      min="1"
+                      max="51"
+                      name="skincolorslider"
+                      id="skincolorslider"
+                      value="25"
+                      step="1"
+                    />
+                  </li>
+                  <li>
+                    <input type="button" value="randomize" class="button" id="randomizeboobs" onclick="randomizeboobs()">
+              
+                  <li>
+                  <button class="button" id="download">save</button>
+                </li>
+                  </ul>
+                  
+              </div>    
+              <!-- </ul> -->
+            </fieldset>
+            
+          </div>
+    </div>
+
+    <div class="blocker">
+      <p>check out the boob generator on desktop to try it out!</p>
+    </div>
+
+    <svg id="outline1" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125.18 124.23"><defs><style>.cls-1{fill:none;stroke:#201d1d;stroke-miterlimit:10;}</style></defs><path class="cls-1" d="M152,95s-2.83,67-62,67c-47.92,0-58-54.39-59.83-63.83s-4.27-40.46,0-59.79" transform="translate(-27.31 -38.21)"/></svg>
+    
+    <svg id="outline2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125.18 124.23"><defs><style>.cls-1{fill:none;stroke:#201d1d;stroke-miterlimit:10;}</style></defs><path class="cls-1" d="M27.91,84.83s2.83,67,62,67c47.92,0,58-54.39,59.83-63.83s4.27-40.46,0-59.79" transform="translate(-27.41 -28.08)"/></svg>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.11/paper-full.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

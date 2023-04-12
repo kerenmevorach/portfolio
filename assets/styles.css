@@ -1,0 +1,389 @@
+@font-face {
+	font-family: 'Neue Haas Unica';
+	src: url('fonts/NeueHaasUnica-Regular.ttf') format('truetype');
+	font-weight: 100;
+ }
+
+ @font-face {
+	font-family: 'Neue Haas Unica';
+	src: url('fonts/NeueHaasUnica-Italic.ttf') format('truetype');
+	font-weight: 200;
+ }
+
+ @font-face {
+	font-family: 'Neue Haas Unica';
+	src: url('fonts/NeueHaasUnica-Bold.ttf') format('truetype');
+	font-weight: 300;
+ }
+
+:root{
+    --type: 18px;
+    --leading: 22px;
+    --circle-size: 15px;
+}
+
+/* .background{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    margin-top: -10px;
+    cursor: url("cursor2.png"), pointer;
+} */
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin-top: -30px;
+    /* background-color: red; */
+    font-family: 'Neue Haas Unica';
+    font-weight: 100;
+    font-size: var(--type);
+    line-height: var(--leading);
+    cursor: url("cursors/blue-cursor.png"), pointer;
+    /* cursor: url("cursors/cursor.svg"), pointer; */
+}
+/* 
+iframe{
+    width: 600px;
+    height: 500px;
+} */
+
+nav{
+    margin-top: 10px;
+    margin-bottom: 210px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 100px; */
+    margin-left: 10px;
+    position: fixed;
+/* 
+    gap: 100px;
+    margin: 10px; */
+}
+
+section{
+    /* margin: 10px; */
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    top: 66px;
+}
+
+.header{
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    margin: 10px;
+}
+
+.project-type-title{
+    display: none;
+}
+
+.project-year-title{
+    display: none;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.project{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-info{  
+    margin-left: 10px;
+}
+
+.project-info:hover{
+    color: rgb(152, 152, 152);
+    /* cursor: pointer; */
+}
+
+.project-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.project-type{
+    margin-top: 10px;
+    margin-left: 23px;
+}
+
+.project-year{
+    margin-top: 10px;
+    margin-left: 23px;
+}
+
+h1{
+    width: 48vw;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    /* max-width: 50ch; */
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.two-buttons{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    /* font-size: calc(var(--type)/1.2); */
+}
+.action{
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: white;
+    outline: black 1px solid;
+    /* background-color: #F15825; */
+    color: black;
+}
+
+.top{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.close{
+
+}
+
+.description-container{
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+
+/* circle stuff */
+.circle{
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+
+#blue{
+    background-color: #0000FF;
+}
+
+#orange{
+    background-color: #F15825;
+}
+
+.orange-cursor{
+    cursor: url("cursors/orange-cursor.png"), auto;
+}
+
+#light-pink{
+    background-color: #F7D6FA;
+}
+
+.pink-cursor{
+    cursor: url("cursors/pink-cursor.png"), auto;
+}
+
+#bright-green{
+    background-color: #00FF00;
+}
+
+#red{
+    background-color: #CC0033;
+}
+
+#purple{
+    background-color: #B27EED;
+}
+
+#light-blue{
+    background-color: #4EEDFF;
+}
+
+#dark-green{
+    background-color: #09AF00;
+}
+
+#bright-pink{
+    background-color: #ff3f93;
+}
+
+.bright-green-cursor{
+    cursor: url("cursors/bright-green-cursor.png"), auto;
+}
+
+/* project toggle stuff */
+.eggsploration-info {
+    display:none;
+ }
+
+ .eggsploration-info.active {
+    display: block;
+ }
+
+ .boob-stickers-info {
+    display:none;
+ }
+
+ .boob-stickers-info.active {
+    display:block;
+ }
+
+ .bright-info {
+    display:none;
+ }
+
+ .bright-info.active {
+    display:block;
+ }
+ 
+
+ .fullwidth{
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-bottom: 10px; */
+ }
+
+ .two-images{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 14px;
+ }
+
+ .image-border{
+    border: 1.2px solid black;
+    border-radius: 8px;
+ }
+
+ .sidebyside {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    /* padding-top: 5px; */
+  }
+
+ .image-container{
+    margin-top: 20px;
+ }
+
+ @media (min-width: 400px) {
+
+ }
+
+ @media (min-width: 660px) {
+
+    h1{
+        width: 34vw;
+    }
+
+    .project{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+
+    .project-type-title{
+        display: flex;
+        margin: 0px;
+    }
+
+    .project-type{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .project-year-title{
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .project-year{
+        margin: 0px;
+    }
+
+    .header{
+        gap: 100px;
+        margin-top: 55px;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+    
+    
+    .project-info{
+    /* flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    margin: 10px;    
+    /* margin-left: 20px; */
+    }
+
+    .two-images{
+        flex-direction: row;
+        max-width: 100%;
+        width: 49.2%;
+     }
+
+
+     
+
+    .sidebyside {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    p{
+        max-width: 70vw;
+        /* background-color: red; */
+    }
+    
+    .description-container{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        /* gap: 100px; */
+     }
+    
+ }
+
+
+ @media (min-width: 1100px) {
+
+    p{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        max-width: 34vw;
+    }
+    
+    .description-container{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        /* gap: 100px; */
+     }
+
+ }

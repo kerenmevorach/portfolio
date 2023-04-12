@@ -1,0 +1,244 @@
+@font-face {
+	font-family: 'Pangram Sans Rounded';
+	src: url('PPPangramSansRounded-Medium.ttf') format('truetype');
+	font-weight: 100;
+ }
+
+ canvas{
+  display: none;
+  }
+
+ .blocker{
+  display: flex;
+  background-color: #FF95E8;
+  margin: -8px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+p{
+  font-size: 40px;
+  line-height: 40px;
+  max-width: 18ch;
+  margin: 20px;
+}
+
+body {
+  font-family: 'Pangram Sans Rounded', sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 10px;
+  /* background-color: rgb(247, 214, 250); */
+  /* background-color: rgb(247, 198, 255); */
+}
+
+
+body,
+      input,
+      canvas {
+        border: 0px solid #aaa;
+      }
+      fieldset {
+        margin: 0;
+        padding: 0;
+        border: none;
+      }
+      fieldset legend {
+        padding: 0;
+      }
+      fieldset ul {
+        padding: 0;
+      }
+      fieldset li {
+        list-style: none;
+        margin-bottom: 0.5em;
+      }
+      fieldset label {
+        display: inline-block;
+        line-height: 10px;
+        width: 120px;
+      }
+      fieldset input {
+        border-radius: 0;
+        border: 1px solid #aaa;
+      }
+
+h1 {
+  text-align: center;
+  /* letter-spacing: -1.5px; */
+  font-weight: 700;
+  /* font-size: 3em; */
+  font-size: 50px;
+  margin: 40px;
+  /* background-color: red; */
+  width: 500px;
+  left: calc(50% - 289px);
+  /* margin-left: auto;
+  margin-right: auto; */
+  position: fixed;
+}
+
+h2 {
+  text-align: left;
+  /* font-weight: 600; */
+  font-size: 18px;
+  width: 96px;
+  margin-left: 1px;
+}
+
+h3{
+text-align: left;
+font-size: 18px;
+width: 150px;
+margin-left: 1px;
+}
+
+canvas {
+  position: fixed;
+  left: calc(50% - 250px);
+  top: 75px;
+}
+
+#outline1 {
+  display: none;
+}
+
+#outline2 {
+  display: none;
+}
+
+#boobbox {
+  position: relative;
+  left: 0px;
+  top: 450px;
+}
+
+#nipplebox {
+  position: relative;
+  left: 0px;
+  top: 470px;
+}
+
+.skintone{
+  position: relative;
+  left: 0px;
+  top: 30px;
+  /* top: 500px; */
+}
+
+#download {
+  position: relative;
+  left: 23px;
+}
+
+
+/* #download:hover{
+  opacity: 0.7;
+  cursor: pointer;
+} */
+
+/* #randomizeboobs {
+  position: fixed;
+  bottom: 10px;
+  right: 160px;
+} */
+
+/* .rightnipple {
+  position: relative;
+  top: 12px;
+} */
+
+.button{
+  background-color: #FF95E8;
+  border-radius: 20px;
+  /* padding: 8px; */
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  cursor: pointer;
+  width: 155px;
+  height: 25px;
+  margin-left: -25px;
+  margin-top: 6px;
+}
+
+.button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+#randomizeboobs:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#height {
+  color: red;
+}
+
+input[type='range'] {
+  height: 2px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 150px;
+  position: relative;
+  /* left: 20px; */
+  top:9px;
+  background-color: #FF95E8;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #FF95E8;
+  height: 16px;
+  width: 16px;
+  border-radius: 25px;
+  /* background: rgb(255, 124, 244); */
+  background: #FF95E8;
+  cursor: pointer;
+  -webkit-appearance: none;
+  /* margin-top: -2px; */
+}
+
+.side-by-side{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-top: -8px;
+}
+
+#nudge{
+  position: relative;
+  left: -24px;
+}
+
+
+.labels{
+width: 795px;
+/* background-color: red; */
+margin-left: auto;
+margin-right: auto;
+top: -150px;
+position: fixed;
+left: calc(50% - 397.5px);
+top: -60px;
+}
+
+
+
+
+@media (min-width: 810px){
+  canvas{
+    display: flex;
+  }
+
+  .blocker{
+    display: none;
+  }
+
+}

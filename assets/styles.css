@@ -22,14 +22,6 @@
     --circle-size: 15px;
 }
 
-/* .background{
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
-    margin-top: -10px;
-    cursor: url("cursor2.png"), pointer;
-} */
-
 
 body{
     width: 100vw;
@@ -61,6 +53,7 @@ nav{
     /* gap: 100px; */
     margin-left: 10px;
     position: fixed;
+    z-index: 2;
 /* 
     gap: 100px;
     margin: 10px; */
@@ -110,7 +103,7 @@ section{
 
 .project-info:hover{
     color: rgb(152, 152, 152);
-    /* cursor: url("cursors/blue-cursor.png"), pointer; */
+    cursor: url("cursors/blue-cursor.png"), pointer;
 }
 
 .project-name{
@@ -134,8 +127,8 @@ h1{
 
 p{
     /* margin-left: 20px; */
-    margin-left: 33px;
-    margin-right: 20px;
+    /* margin-left: 33px;
+    margin-right: 20px; */
     margin-top: 30px;
     /* max-width: 50ch; */
 }
@@ -147,18 +140,22 @@ p{
 .two-buttons{
     position: fixed;
     bottom: 10px;
-    right: 20px;
+    right: 35px;
     /* font-size: calc(var(--type)/1.2); */
 }
+
+
 .action{
     width: auto;
     height: auto;
     padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
     border-radius: 20px;
     background-color: white;
-    outline: black 1px solid;
+    /* outline: black 1px solid; */
     /* background-color: #F15825; */
-    color: black;
+    /* color: black; */
 }
 
 .top{
@@ -166,9 +163,9 @@ p{
     text-decoration: none;
 }
 
-.close{
+/* .close{
 
-}
+} */
 
 .description-container{
     display: grid;
@@ -177,6 +174,14 @@ p{
 
 /* circle stuff */
 .circle{
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+
+.circle-animation{
     width: var(--circle-size);
     height: var(--circle-size);
     border-radius: 50%;
@@ -233,38 +238,78 @@ p{
 }
 
 /* project toggle stuff */
+/* aside{
+    overflow: hidden;
+    height: 100%;
+    transition: height 0.5s ease-in-out;
+}
+
+aside.active{
+    height: 0;
+    transition: height 0.5s ease-in-out;
+} */
+
 .eggsploration-info {
-    display:none;
+    /* overflow: hidden;
+    max-height: 0;
+    transition: all 0.6s ease-in-out; */
+    display: none;
+    padding: 34px;
+    padding-top: 0px;
  }
 
  .eggsploration-info.active {
+    /* overflow: auto;
+    max-height: 100%; */
     display: block;
  }
 
+ #egg-close:hover{
+    cursor: url("cursors/orange-cursor.png"), pointer;
+}
+
+#egg-close{
+    /* color: #F15825; */
+    /* border: 1.2px solid #F15825; */
+    background-color: #F15825;
+    color: white;
+
+}
+
+.eggtoTop{
+    cursor: url("cursors/orange-cursor.png"), pointer;
+}
+
  .boob-stickers-info {
-    display:none;
+    display: none;
+    padding: 34px;
+    padding-top: 0px;
  }
 
  .boob-stickers-info.active {
-    display:block;
+    display: block;
  }
 
  .bright-info {
-    display:none;
+    display: none;
+    padding: 34px;
+    padding-top: 0px;
  }
 
  .bright-info.active {
-    display:block;
+    display: block;
  }
  
 
  .fullwidth{
-    width: calc(100% - 40px);
+    width: 100%;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    /* width: calc(100% - 40px); */
     /* margin-left: 20px;
     margin-right: 20px; */
-    /* margin-bottom: 10px; */
-    margin-left: 33px;
-    margin-right: 33px;
+    /* margin-left: 33px;
+    margin-right: 33px; */
  }
 
  .two-images{
@@ -273,6 +318,7 @@ p{
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 14px;
+    gap: 0px;
  }
 
  .image-border{
@@ -284,11 +330,12 @@ p{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 4px;
-    width: calc(100% - 40px);
+    width: 100%;
+    /* margin-left: 33px; */
+    /* padding: 4px; */
+    /* width: calc(100% - 40px); */
     /* margin-left: 20px; */
     /* margin-right: 20px; */
-    margin-left: 33px;
     /* margin-right: 33px; */
     /* padding-top: 5px; */
   }
@@ -353,17 +400,18 @@ p{
 
     .two-images{
         flex-direction: row;
-        max-width: 100%;
-        width: 49.2%;
+        /* max-width: 100%; */
+        width: 50%;
+        /* width: 49.2%; */
      }
 
-
-     
 
     .sidebyside {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+        gap: 24px;
+        width: 98%;
     }
 
     p{
@@ -384,8 +432,8 @@ p{
 
     p{
         /* margin-left: 20px; */
-        margin-right: 20px;
-        margin-top: 30px;
+        /* margin-right: 20px;
+        margin-top: 30px; */
         max-width: 34vw;
     }
     

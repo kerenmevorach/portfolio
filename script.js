@@ -1,5 +1,8 @@
 const body = document.querySelector('body');
 
+const circleAnimation = document.querySelector('.circle-animation');
+const section = document.querySelector('section');
+
 const eggsploration = document.querySelector('.eggsploration');
 const eggsplorationInfo = document.querySelector('.eggsploration-info');
 const eggClose = document.querySelector('#egg-close');
@@ -19,6 +22,7 @@ function scrollToTop(){
 eggsploration.onclick = () =>{
     console.log('hi')
     eggsplorationInfo.classList.toggle('active')
+    eggsplorationInfo.style.transition = "2s"
     boobStickersInfo.classList.remove('active')
     brightInfo.classList.remove('active')
     body.classList.toggle('orange-cursor')
@@ -66,3 +70,15 @@ brightClose.onclick = () =>{
 }
 
 
+
+circleAnimation.onclick = () => {
+    circleAnimation.style.position = 'initial';
+    circleAnimation.style.width = '1000px';
+    circleAnimation.style.height = '1000px';
+    circleAnimation.style.borderRadius = '0px';
+    circleAnimation.style.top = '0px';
+    circleAnimation.style.left = '-5000px';
+    circleAnimation.style.transitionDuration = '2s';
+    body.removeChild(section);
+    //figure out tming and delay
+}

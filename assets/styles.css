@@ -35,26 +35,31 @@ body{
     cursor: url("cursors/blue-cursor.png"), pointer;
 }
 
-/* #back-to-top{
-    transition: 1s;
-    transform: translate(0,0);
-} */
-/* 
-iframe{
-    width: 600px;
-    height: 500px;
-} */
-
 nav{
-    margin-top: 20px;
-    margin-bottom: 210px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* margin-top: 20px;
+    margin-bottom: 210px; */
     gap: 50px;
-    margin-left: 10px;
+    left: -10px;
+    /* left: 0px; */
+    /* top: -30px; */
+    top: 15px;
     position: fixed;
     z-index: 2;
+    font-weight:100;
 }
+
+video{
+    width: 100%;
+}
+
+.name{
+    font-weight: 100;
+}
+
+.activenow{
+    border-bottom: 1px black solid;
+}
+
 
 section{
     /* margin: 10px; */
@@ -83,6 +88,10 @@ aside{
 
 .project-type-title{
     display: none;
+}
+
+.visible{
+    display: block;
 }
 
 .project-year-title{
@@ -115,6 +124,10 @@ aside{
     flex-direction: row;
 }
 
+.indent{
+    margin-left: -10px;
+}
+
 .project-type{
     margin-top: 10px;
     margin-left: 23px;
@@ -127,7 +140,7 @@ aside{
 
 h1{
     width: 135px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 p{
@@ -147,7 +160,7 @@ p{
     bottom: 20px;
     /* bottom: 10px; */
     /* right: 24px; */
-    right: calc(50% - 90px);
+    right: calc(50% - 100px);
     /* right: 32px; */
 }
 
@@ -394,6 +407,7 @@ aside.active{
  .boob-stickers-info {
     display: none;
     padding: 34px;
+    padding-bottom: 14px;
     padding-top: 0px;
  }
 
@@ -512,6 +526,8 @@ aside.active{
     }
 
     nav{
+        left: 0px;
+        top: -30px;
         width: 100%;
     }
 
@@ -520,7 +536,9 @@ aside.active{
         margin-right: 8px;
     }
     
-    
+    .indent{
+        margin-left: 0px;
+    }
     
     .project-info{
     /* flex-direction: row; */
@@ -555,11 +573,6 @@ aside.active{
     .logo{
         width: px;   
         margin-left: calc(50% - 100px);
-    }
-
-    .video-desktop{
-        width: 96%;
-        margin-left: -48px;
     }
 
     p{

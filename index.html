@@ -9,11 +9,11 @@
         <link rel="icon" type="image/x-icon" href="assets/cursors/favicon.png" />
         <link rel="stylesheet" href="assets/reset.css">
         <link rel="stylesheet" href="assets/styles.css">
-        <script src="script.js" async defer></script>
+        <script src="assets/script1.js" async defer></script>
     </head>
     <body id="back-to-top">
 
-       <nav>
+       <!-- <nav>
             <div class="project-name">
                 <div class="circle" id="blue"></div>
                 <h1 class="name">Keren Mevorach</h1>
@@ -23,7 +23,21 @@
                 <h1 class="name">About</h1>
             </div>
             <div></div>
-       </nav>
+       </nav> -->
+
+        <nav>
+            <ul class="header">
+                    <li class="project-name">
+                        <div class="circle" id="blue"></div>
+                        <a href="index.html"><h1 class="name activenow">Keren Mevorach</h1></a>
+                    </li>
+                    <li class="project-type-title visible">
+                        <!-- <div class="circle" id="blue"></div> -->
+                        <a href="about.html" class="name">About</h1></a>
+                    </li>
+            </ul>
+        </nav>
+
 <!-- 
        <nav>
             <ul class="header">
@@ -44,7 +58,7 @@
        <section>
             <ul class="header">
                 <li class="project-name">
-                    <h2>Project</h2>
+                    <h2 class="indent">Project</h2>
                 </li>
                 <li class="project-type-title">
                     <h2>Project Type</h2>
@@ -157,28 +171,34 @@
 
                             <img src="assets/boobstickers/boobs_hero.jpg" class="fullwidth"/>
 
-                            <div class="sidebyside video-desktop">
-                                <video autoplay loop muted class="two-images">
-                                    <source src="assets/boobstickers/boob1.mp4" type="video/mp4" />
-                                </video>
-
-                                <video autoplay loop muted class="two-images">
-                                    <source src="assets/boobstickers/boob2.mp4" type="video/mp4" />
-                                </video>
-                            </div>
-
-                            <img src="assets/boobstickers/boobs_sticker.jpg" class="fullwidth"/>
-
-                            <img src="assets/boobstickers/boobs_laptop.jpg" class="fullwidth"/>
+                
+                            <video autoplay loop muted>
+                                <source src="assets/boobstickers/boob1.mp4" type="video/mp4" />
+                            </video>
 
                             <div class="sidebyside">
                                 <img src="assets/boobstickers/boobs_laptop_2.jpg" class="two-images" />
                                 <img src="assets/boobstickers/boobs_notebooks_2.jpg" class="two-images" />
                             </div>
 
-                            <img src="assets/boobstickers/boobs_notebooks.jpg" class="fullwidth"/>
+                            <img src="assets/boobstickers/boobs_sticker.jpg" class="fullwidth"/>
 
-                            <img src="assets/boobstickers/boobs_phone.jpg" class="fullwidth"/>
+
+                            <!-- <video autoplay loop muted>
+                                <source src="assets/boobstickers/boob2.mp4" type="video/mp4" />
+                            </video> -->
+
+                            
+                            <div class="sidebyside">
+                                <img src="assets/boobstickers/boobs_laptop.jpg" class="two-images" />
+                                <img src="assets/boobstickers/boobs_notebooks.jpg" class="two-images" />
+                            </div>
+
+                            <img src="" class="fullwidth"/>
+
+                            <!-- <img src="assets/boobstickers/boobs_notebooks.jpg" class="fullwidth"/> -->
+
+                            <!-- <img src="assets/boobstickers/boobs_phone.jpg" class="fullwidth"/> -->
                         </div>
 
                             <div class="two-buttons">
@@ -202,7 +222,7 @@
                             <h2>Bright</h2>
                         </li>
                         <li class="project-type">
-                            <h2>Research & User Testing, Prototyping, Branding</h2>
+                            <h2>UX/UI, Branding</h2>
                         </li>
                         <li class="project-year">
                             </h2>2022</h2>

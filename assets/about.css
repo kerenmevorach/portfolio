@@ -1,0 +1,53 @@
+p{
+    margin-top: 15px;
+}
+.whoisshe-info {
+    display: none;
+    padding: 34px;
+    padding-top: 0px;
+    padding-bottom: 14px;
+ }
+
+ .whoisshe-info.active {
+    display: block;
+ }
+
+
+ .experience-info {
+    display: none;
+    padding: 34px;
+    padding-top: 0px;
+    padding-bottom: 14px;
+ }
+
+ .experience-info.active {
+    display: block;
+ }
+
+
+ .education-info {
+    display: none;
+    padding: 34px;
+    padding-top: 0px;
+    padding-bottom: 14px;
+ }
+
+ .education-info.active {
+    display: block;
+ }
+
+
+ .awards-info {
+    display: none;
+    padding: 34px;
+    padding-top: 0px;
+    padding-bottom: 14px;
+ }
+
+ .awards-info.active {
+    display: block;
+ }
+
+ .project{
+    margin-bottom: 8px;
+ }

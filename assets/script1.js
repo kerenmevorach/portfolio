@@ -19,6 +19,11 @@ const bata = document.querySelector('.bata');
 const bataInfo = document.querySelector('.bata-info');
 const bataClose = document.querySelector('#bata-close');
 
+
+const whoIsSheInfo = document.querySelector('.whoisshe');
+const whoIsShe = document.querySelector('.whoisshe-info');
+
+
 function scrollToTop(){
     window.scrollTo({top: 0, behavior: 'smooth'});
   }
@@ -84,7 +89,6 @@ bata.onclick = () =>{
     body.classList.remove('bright-green-cursor')
     // body.style.cursor = "url('assets/cursors/pink-cursor.png'), pointer"
 }
-
 
 
 // circleAnimation.onclick = () => {

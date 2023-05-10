@@ -51,7 +51,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
     position: fixed;
     z-index: 2;
 }
@@ -63,6 +63,7 @@ section{
     grid-template-columns: 1fr;
     position: relative;
     top: 66px;
+    /* background-color: #ff3f93; */
 }
 
 aside{
@@ -125,7 +126,8 @@ aside{
 }
 
 h1{
-    /* width: 48vw; */
+    width: 135px;
+    background-color: red;
 }
 
 p{
@@ -142,8 +144,11 @@ p{
 
 .two-buttons{
     position: fixed;
-    bottom: 10px;
-    right: 35px;
+    bottom: 20px;
+    /* bottom: 10px; */
+    /* right: 24px; */
+    right: calc(50% - 90px);
+    /* right: 32px; */
 }
 
 
@@ -154,6 +159,7 @@ button{
     padding-left: 14px;
     padding-right: 14px;
     border-radius: 20px;
+    margin: 2px;
     background-color: white;
 }
 
@@ -467,7 +473,7 @@ aside.active{
  @media (min-width: 660px) {
 
     h1{
-        /* width: 31vw; */
+        /* width: 26vw; */
         /* background-color: violet; */
     }
 
@@ -506,7 +512,7 @@ aside.active{
     }
 
     nav{
-        gap: 50px;
+        width: 100%;
     }
 
     aside{
@@ -542,7 +548,7 @@ aside.active{
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        gap: 24px;
+        gap: 2%;
         width: 98%;
     }
 
@@ -566,6 +572,11 @@ aside.active{
         grid-template-columns: 1fr, 1fr;
         /* gap: 100px; */
      }
+
+     .two-buttons{
+        bottom: 10px;
+        right: 32px;
+    }
     
  }
 

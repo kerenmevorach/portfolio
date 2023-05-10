@@ -46,17 +46,14 @@ iframe{
 } */
 
 nav{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 210px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 100px; */
-    margin-left: 10px;
+    gap: 50px;
+    margin-left: 20px;
     position: fixed;
     z-index: 2;
-/* 
-    gap: 100px;
-    margin: 10px; */
 }
 
 section{
@@ -68,6 +65,10 @@ section{
     top: 66px;
 }
 
+aside{
+    margin-left: 0px;
+}
+
 .header{
     font-weight: 300;
     margin-top: 25px;
@@ -76,6 +77,7 @@ section{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 100px;
     margin: 10px;
+    margin-left: 20px;
 }
 
 .project-type-title{
@@ -101,6 +103,7 @@ section{
     margin-left: 10px;
 }
 
+
 .project-info:hover{
     color: rgb(152, 152, 152);
     cursor: url("cursors/blue-cursor.png"), pointer;
@@ -122,7 +125,7 @@ section{
 }
 
 h1{
-    width: 48vw;
+    /* width: 48vw; */
 }
 
 p{
@@ -141,11 +144,10 @@ p{
     position: fixed;
     bottom: 10px;
     right: 35px;
-    /* font-size: calc(var(--type)/1.2); */
 }
 
 
-.action{
+button{
     width: auto;
     height: auto;
     padding: 8px;
@@ -153,9 +155,10 @@ p{
     padding-right: 14px;
     border-radius: 20px;
     background-color: white;
-    /* outline: black 1px solid; */
-    /* background-color: #F15825; */
-    /* color: black; */
+}
+
+button:hover{
+    opacity: 0.7;
 }
 
 .top{
@@ -163,9 +166,122 @@ p{
     text-decoration: none;
 }
 
-/* .close{
+#eggtoTop{
+    background-color: #F15825;
+    color: white;
+}
 
-} */
+
+#eggtoTop:hover{
+    cursor: url("cursors/orange-cursor.png"), pointer;
+}
+
+
+#egg-close{
+    background-color: #F15825;
+    color: white;
+}
+
+
+#orangeTop:hover{
+    cursor: url("cursors/orange-cursor.png"), pointer;
+}
+
+#orangeTop:hover{
+    cursor: url("cursors/orange-cursor.png"), pointer;
+}
+
+.eggsploration:hover{
+    cursor: url("cursors/orange-cursor.png"), pointer;
+}
+
+/* boobs */
+#boobtoTop{
+    background-color: #F7D6FA;
+    color: black;
+}
+
+
+#boobtoTop:hover{
+    cursor: url("cursors/pink.png"), pointer;
+}
+
+
+#boob-close{
+    background-color: #F7D6FA;
+    color: black;
+}
+
+#boob-close:hover{
+    cursor: url("cursors/pink-cursor.png"), pointer;
+}
+
+#lightpinkTop:hover{
+    cursor: url("cursors/pink-cursor.png"), pointer;
+}
+
+.boob-stickers:hover{
+    cursor: url("cursors/pink-cursor.png"), pointer;
+}
+
+/* bright */
+#brighttoTop{
+    background-color: #00FF00;
+    color: black;
+}
+
+
+#brighttoTop:hover{
+    cursor: url("cursors/bright-green-cursor.png"), pointer;
+}
+
+
+#bright-close{
+    background-color: #00FF00;
+    color: black;
+}
+
+
+#bright-close:hover{
+    cursor: url("cursors/bright-green-cursor.png"), pointer;
+}
+
+#greenTop:hover{
+    cursor: url("cursors/bright-green-cursor.png"), pointer;
+}
+
+.bright:hover{
+    cursor: url("cursors/bright-green-cursor.png"), pointer;
+}
+
+/* bata */
+#batatoTop{
+    background-color: #CC0033;
+    color: white;
+}
+
+
+#batatoTop:hover{
+    cursor: url("cursors/red-cursor.png"), pointer;
+}
+
+
+#bata-close{
+    background-color: #CC0033;
+    color: white;
+}
+
+#bata-close:hover{
+    cursor: url("cursors/red-cursor.png"), pointer;
+}
+
+#redTop:hover{
+    cursor: url("cursors/red-cursor.png"), pointer;
+}
+
+.bata:hover{
+    cursor: url("cursors/red-cursor.png"), pointer;
+}
 
 .description-container{
     display: grid;
@@ -217,6 +333,10 @@ p{
     background-color: #CC0033;
 }
 
+.red-cursor{
+    cursor: url("cursors/red-cursor.png"), pointer;
+}
+
 #purple{
     background-color: #B27EED;
 }
@@ -264,21 +384,6 @@ aside.active{
     display: block;
  }
 
- #egg-close:hover{
-    cursor: url("cursors/orange-cursor.png"), pointer;
-}
-
-#egg-close{
-    /* color: #F15825; */
-    /* border: 1.2px solid #F15825; */
-    background-color: #F15825;
-    color: white;
-
-}
-
-.eggtoTop{
-    cursor: url("cursors/orange-cursor.png"), pointer;
-}
 
  .boob-stickers-info {
     display: none;
@@ -291,6 +396,16 @@ aside.active{
  }
 
  .bright-info {
+    display: none;
+    padding: 34px;
+    padding-top: 0px;
+ }
+
+ .bata-info.active {
+    display: block;
+ }
+
+ .bata-info {
     display: none;
     padding: 34px;
     padding-top: 0px;
@@ -340,18 +455,20 @@ aside.active{
     /* padding-top: 5px; */
   }
 
+.logo{
+    width: 180px;   
+    margin-left: calc(50% - 100px);
+}
+
  .image-container{
     margin-top: 20px;
- }
-
- @media (min-width: 400px) {
-
  }
 
  @media (min-width: 660px) {
 
     h1{
-        width: 33.75vw;
+        /* width: 31vw; */
+        /* background-color: violet; */
     }
 
     .project{
@@ -381,21 +498,36 @@ aside.active{
     }
 
     .header{
-        gap: 100px;
+        gap: 50px;
         margin-top: 55px;
         -webkit-user-select: none; /* Safari */
         -ms-user-select: none; /* IE 10 and IE 11 */
         user-select: none; /* Standard syntax */
     }
+
+    nav{
+        gap: 50px;
+    }
+
+    aside{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
     
     
     .project-info{
     /* flex-direction: row; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 100px;
-    margin: 10px;    
+    gap: 50px;
+    margin: 10px;  
+    margin-left: 20px;  
     /* margin-left: 20px; */
+    }
+
+    .project-info li{
+        /* background-color: red; */
     }
 
     .two-images{
@@ -414,9 +546,19 @@ aside.active{
         width: 98%;
     }
 
+    .logo{
+        width: px;   
+        margin-left: calc(50% - 100px);
+    }
+
+    .video-desktop{
+        width: 96%;
+        margin-left: -48px;
+    }
+
     p{
-        max-width: 70vw;
-        /* background-color: red; */
+        max-width: 60vw;
+        /* background-color: green; */
     }
     
     .description-container{
@@ -440,7 +582,16 @@ aside.active{
     .description-container{
         display: grid;
         grid-template-columns: 1fr, 1fr;
-        /* gap: 100px; */
      }
 
+     .project-info{
+        gap: 180px;
+    }
+
+    .header{
+        gap: 180px;
+    }
+
+
+        
  }

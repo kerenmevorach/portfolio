@@ -15,14 +15,17 @@ const bright = document.querySelector('.bright');
 const brightInfo = document.querySelector('.bright-info');
 const brightClose = document.querySelector('#bright-close');
 
+const bata = document.querySelector('.bata');
+const bataInfo = document.querySelector('.bata-info');
+const bataClose = document.querySelector('#bata-close');
+
 function scrollToTop(){
     window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
 eggsploration.onclick = () =>{
-    console.log('hi')
+    console.log('eggs')
     eggsplorationInfo.classList.toggle('active')
-    eggsplorationInfo.style.transition = "2s"
     boobStickersInfo.classList.remove('active')
     brightInfo.classList.remove('active')
     body.classList.toggle('orange-cursor')
@@ -38,7 +41,7 @@ eggClose.onclick = () =>{
 
 
 boobStickers.onclick = () =>{
-    console.log('hi')
+    console.log('boobs')
     eggsplorationInfo.classList.remove('active')
     brightInfo.classList.remove('active')
     boobStickersInfo.classList.toggle('active')
@@ -54,7 +57,7 @@ boobClose.onclick = () =>{
 }
 
 bright.onclick = () =>{
-    console.log('hi')
+    console.log('bright')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')
     brightInfo.classList.toggle('active')
@@ -69,16 +72,28 @@ brightClose.onclick = () =>{
     body.classList.remove('bright-green-cursor')
 }
 
-
-
-circleAnimation.onclick = () => {
-    circleAnimation.style.position = 'initial';
-    circleAnimation.style.width = '1000px';
-    circleAnimation.style.height = '1000px';
-    circleAnimation.style.borderRadius = '0px';
-    circleAnimation.style.top = '0px';
-    circleAnimation.style.left = '-5000px';
-    circleAnimation.style.transitionDuration = '2s';
-    body.removeChild(section);
-    //figure out tming and delay
+bata.onclick = () =>{
+    console.log('bata')
+    eggsplorationInfo.classList.remove('active')
+    boobStickersInfo.classList.remove('active')
+    brightInfo.classList.remove('active')
+    bataInfo.classList.toggle('active')
+    body.classList.toggle('red-cursor')
+    body.classList.remove('orange-cursor')
+    body.classList.remove('pink-cursor')
+    body.classList.remove('bright-green-cursor')
+    // body.style.cursor = "url('assets/cursors/pink-cursor.png'), pointer"
 }
+
+
+
+// circleAnimation.onclick = () => {
+//     circleAnimation.style.position = 'initial';
+//     circleAnimation.style.width = '1000px';
+//     circleAnimation.style.height = '1000px';
+//     circleAnimation.style.borderRadius = '0px';
+//     circleAnimation.style.top = '0px';
+//     circleAnimation.style.left = '-5000px';
+//     circleAnimation.style.transitionDuration = '2s';
+//     body.removeChild(section);
+// }

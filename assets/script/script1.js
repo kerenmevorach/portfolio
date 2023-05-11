@@ -19,9 +19,21 @@ const bata = document.querySelector('.bata');
 const bataInfo = document.querySelector('.bata-info');
 const bataClose = document.querySelector('#bata-close');
 
+const crackers = document.querySelector('.crackers');
+const crackersInfo = document.querySelector('.crackers-info');
+const crackersClose = document.querySelector('#crackers-close');
 
-const whoIsSheInfo = document.querySelector('.whoisshe');
-const whoIsShe = document.querySelector('.whoisshe-info');
+const theex = document.querySelector('.theex');
+const theexInfo = document.querySelector('.theex-info');
+const theexClose = document.querySelector('#theex-close');
+
+const growinggreens = document.querySelector('.growinggreens');
+const growinggreensInfo = document.querySelector('.growinggreens-info');
+const growinggreensClose = document.querySelector('#growinggreens-close');
+
+const typedesign = document.querySelector('.typedesign');
+const typedesignInfo = document.querySelector('.typedesign-info');
+const typedesignClose = document.querySelector('#typedesign-close');
 
 
 function scrollToTop(){
@@ -31,11 +43,21 @@ function scrollToTop(){
 eggsploration.onclick = () =>{
     console.log('eggs')
     eggsplorationInfo.classList.toggle('active')
-    boobStickersInfo.classList.remove('active')
-    brightInfo.classList.remove('active')
     body.classList.toggle('orange-cursor')
-    body.classList.remove('pink-cursor')
+    boobStickersInfo.classList.remove('active')
+    body.classList.remove('light-pink-cursor')
+    brightInfo.classList.remove('active')
     body.classList.remove('bright-green-cursor')
+    bataInfo.classList.remove('active')
+    body.classList.remove('red-cursor')
+    crackersInfo.classList.remove('active')
+    body.classList.remove('purple-cursor')
+    theexInfo.classList.remove('active')
+    body.classList.remove('light-blue-cursor')
+    growinggreensInfo.classList.remove('active')
+    body.classList.remove('green-cursor')
+    typedesignInfo.classList.remove('active')
+    body.classList.remove('bright-pink-cursor')
     // document.querySelector("link[rel*='icon']").href = "assets/cursors/orange-cursor.png";
 }
 
@@ -48,12 +70,21 @@ eggClose.onclick = () =>{
 boobStickers.onclick = () =>{
     console.log('boobs')
     eggsplorationInfo.classList.remove('active')
-    brightInfo.classList.remove('active')
-    boobStickersInfo.classList.toggle('active')
-    body.classList.toggle('pink-cursor')
     body.classList.remove('orange-cursor')
+    boobStickersInfo.classList.toggle('active')
+    body.classList.toggle('light-pink-cursor')
+    brightInfo.classList.remove('active')
     body.classList.remove('bright-green-cursor')
-    // body.style.cursor = "url('assets/cursors/pink-cursor.png'), pointer"
+    bataInfo.classList.remove('active')
+    body.classList.remove('red-cursor')
+    crackersInfo.classList.remove('active')
+    body.classList.remove('purple-cursor')
+    theexInfo.classList.remove('active')
+    body.classList.remove('light-blue-cursor')
+    growinggreensInfo.classList.remove('active')
+    body.classList.remove('green-cursor')
+    typedesignInfo.classList.remove('active')
+    body.classList.remove('bright-pink-cursor')
 }
 
 boobClose.onclick = () =>{
@@ -64,12 +95,21 @@ boobClose.onclick = () =>{
 bright.onclick = () =>{
     console.log('bright')
     eggsplorationInfo.classList.remove('active')
+    body.classList.remove('orange-cursor')
     boobStickersInfo.classList.remove('active')
+    body.classList.remove('light-pink-cursor')
     brightInfo.classList.toggle('active')
     body.classList.toggle('bright-green-cursor')
-    body.classList.remove('orange-cursor')
-    body.classList.remove('pink-cursor')
-    // body.style.cursor = "url('assets/cursors/pink-cursor.png'), pointer"
+    bataInfo.classList.remove('active')
+    body.classList.remove('red-cursor')
+    crackersInfo.classList.remove('active')
+    body.classList.remove('purple-cursor')
+    theexInfo.classList.remove('active')
+    body.classList.remove('light-blue-cursor')
+    growinggreensInfo.classList.remove('active')
+    body.classList.remove('green-cursor')
+    typedesignInfo.classList.remove('active')
+    body.classList.remove('bright-pink-cursor')
 }
 
 brightClose.onclick = () =>{
@@ -80,24 +120,124 @@ brightClose.onclick = () =>{
 bata.onclick = () =>{
     console.log('bata')
     eggsplorationInfo.classList.remove('active')
+    body.classList.remove('orange-cursor')
     boobStickersInfo.classList.remove('active')
+    body.classList.remove('light-pink-cursor')
     brightInfo.classList.remove('active')
+    body.classList.remove('bright-green-cursor')
     bataInfo.classList.toggle('active')
     body.classList.toggle('red-cursor')
-    body.classList.remove('orange-cursor')
-    body.classList.remove('pink-cursor')
-    body.classList.remove('bright-green-cursor')
-    // body.style.cursor = "url('assets/cursors/pink-cursor.png'), pointer"
+    crackersInfo.classList.remove('active')
+    body.classList.remove('purple-cursor')
+    theexInfo.classList.remove('active')
+    body.classList.remove('light-blue-cursor')
+    growinggreensInfo.classList.remove('active')
+    body.classList.remove('green-cursor')
+    typedesignInfo.classList.remove('active')
+    body.classList.remove('bright-pink-cursor')
 }
 
+bataClose.onclick = () =>{
+    bataInfo.classList.remove('active')
+    body.classList.remove('red-cursor')
+}
 
-// circleAnimation.onclick = () => {
-//     circleAnimation.style.position = 'initial';
-//     circleAnimation.style.width = '1000px';
-//     circleAnimation.style.height = '1000px';
-//     circleAnimation.style.borderRadius = '0px';
-//     circleAnimation.style.top = '0px';
-//     circleAnimation.style.left = '-5000px';
-//     circleAnimation.style.transitionDuration = '2s';
-//     body.removeChild(section);
-// }
+crackers.onclick = () =>{
+    console.log('bata')
+    eggsplorationInfo.classList.remove('active')
+    body.classList.remove('orange-cursor')
+    boobStickersInfo.classList.remove('active')
+    body.classList.remove('light-pink-cursor')
+    brightInfo.classList.remove('active')
+    body.classList.remove('bright-green-cursor')
+    bataInfo.classList.remove('active')
+    body.classList.remove('red-cursor')
+    crackersInfo.classList.toggle('active')
+    body.classList.toggle('purple-cursor')
+    theexInfo.classList.remove('active')
+    body.classList.remove('light-blue-cursor')
+    growinggreensInfo.classList.remove('active')
+    body.classList.remove('green-cursor')
+    typedesignInfo.classList.remove('active')
+    body.classList.remove('bright-pink-cursor')
+}
+
+crackersClose.onclick = () =>{
+    crackersInfo.classList.remove('active')
+    body.classList.remove('purple-cursor')
+}
+
+theex.onclick = () =>{
+    console.log('bata')
+    eggsplorationInfo.classList.remove('active')
+    body.classList.remove('orange-cursor')
+    boobStickersInfo.classList.remove('active')
+    body.classList.remove('light-pink-cursor')
+    brightInfo.classList.remove('active')
+    body.classList.remove('bright-green-cursor')
+    bataInfo.classList.remove('active')
+    body.classList.remove('red-cursor')
+    crackersInfo.classList.remove('active')
+    body.classList.remove('purple-cursor')
+    theexInfo.classList.toggle('active')
+    body.classList.toggle('light-blue-cursor')
+    growinggreensInfo.classList.remove('active')
+    body.classList.remove('green-cursor')
+    typedesignInfo.classList.remove('active')
+    body.classList.remove('bright-pink-cursor')
+}
+
+theexClose.onclick = () =>{
+    theexInfo.classList.remove('active')
+    body.classList.remove('light-blue-cursor')
+}
+
+growinggreens.onclick = () =>{
+    console.log('bata')
+    eggsplorationInfo.classList.remove('active')
+    body.classList.remove('orange-cursor')
+    boobStickersInfo.classList.remove('active')
+    body.classList.remove('light-pink-cursor')
+    brightInfo.classList.remove('active')
+    body.classList.remove('bright-green-cursor')
+    bataInfo.classList.remove('active')
+    body.classList.remove('red-cursor')
+    crackersInfo.classList.remove('active')
+    body.classList.remove('purple-cursor')
+    theexInfo.classList.remove('active')
+    body.classList.remove('light-blue-cursor')
+    growinggreensInfo.classList.toggle('active')
+    body.classList.toggle('green-cursor')
+    typedesignInfo.classList.remove('active')
+    body.classList.remove('bright-pink-cursor')
+}
+
+growinggreensClose.onclick = () =>{
+    growinggreensInfo.classList.remove('active')
+    body.classList.remove('green-cursor')
+}
+
+typedesign.onclick = () =>{
+    console.log('bata')
+    eggsplorationInfo.classList.remove('active')
+    body.classList.remove('orange-cursor')
+    boobStickersInfo.classList.remove('active')
+    body.classList.remove('light-pink-cursor')
+    brightInfo.classList.remove('active')
+    body.classList.remove('bright-green-cursor')
+    bataInfo.classList.remove('active')
+    body.classList.remove('red-cursor')
+    crackersInfo.classList.remove('active')
+    body.classList.remove('purple-cursor')
+    theexInfo.classList.remove('active')
+    body.classList.remove('light-blue-cursor')
+    growinggreensInfo.classList.remove('active')
+    body.classList.remove('green-cursor')
+    typedesignInfo.classList.toggle('active')
+    body.classList.toggle('bright-pink-cursor')
+}
+
+typedesignClose.onclick = () =>{
+    typedesignInfo.classList.remove('active')
+    body.classList.remove('bright-pink-cursor')
+}

@@ -31,8 +31,13 @@ body{
     font-weight: 100;
     font-size: var(--type);
     line-height: var(--leading);
-    cursor: url("cursors/blue-cursor.png"), pointer;
+    cursor: url("../cursors/blue-cursor.png"), pointer;
+    /* cursor: url("../cursors/cursor.svg") x y, pointer; */
 }
+
+/* body:hover{
+    cursor: url("../cursors/blue-cursor.png"), pointer;
+} */
 
 
 /* for navigation */
@@ -51,7 +56,7 @@ nav{
 }
 
 .name:hover{
-    cursor: url("cursors/blue-cursor.png"), pointer;
+    cursor: url("../cursors/blue-cursor.png"), pointer;
 }
 
 .activenow{
@@ -105,7 +110,7 @@ section{
 
 .project-info:hover{
     color: rgb(152, 152, 152);
-    cursor: url("cursors/blue-cursor.png"), pointer;
+    cursor: url("../cursors/blue-cursor.png"), pointer;
 }
 
 .project-name{
@@ -236,7 +241,7 @@ button:hover{
 }
 
 .eggsploration:hover{
-    cursor: url("cursors/orange-cursor.png"), pointer;
+    cursor: url("../cursors/orange-cursor.png"), pointer;
 }
 
 /* boobs buttons */
@@ -251,7 +256,7 @@ button:hover{
 }
 
 .boob-stickers:hover{
-    cursor: url("cursors/pink-cursor.png"), pointer;
+    cursor: url("../cursors/pink-cursor.png"), pointer;
 }
 
 /* bright buttons */
@@ -266,7 +271,7 @@ button:hover{
 }
 
 .bright:hover{
-    cursor: url("cursors/bright-green-cursor.png"), pointer;
+    cursor: url("../cursors/bright-green-cursor.png"), pointer;
 }
 
 /* bata buttons */
@@ -283,7 +288,7 @@ button:hover{
 
 
 .bata:hover{
-    cursor: url("cursors/red-cursor.png"), pointer;
+    cursor: url("../cursors/red-cursor.png"), pointer;
 }
 
 /* crackers buttons */
@@ -299,7 +304,7 @@ button:hover{
 }
 
 .crackers:hover{
-    cursor: url("cursors/purple-cursor.png"), pointer;
+    cursor: url("../cursors/purple-cursor.png"), pointer;
 }
 
 /* the ex buttons */
@@ -315,7 +320,7 @@ button:hover{
 }
 
 .theex:hover{
-    cursor: url("cursors/light-blue-cursor.png"), pointer;
+    cursor: url("../cursors/light-blue-cursor.png"), pointer;
 }
 
 /* growing greens buttons */
@@ -331,7 +336,7 @@ button:hover{
 }
 
 .growinggreens:hover{
-    cursor: url("cursors/green-cursor.png"), pointer;
+    cursor: url("../cursors/green-cursor.png"), pointer;
 }
 
 /* type design buttons */
@@ -346,7 +351,7 @@ button:hover{
 }
 
 .typedesign:hover{
-    cursor: url("cursors/bright-pink-cursor.jpg"), pointer;
+    cursor: url("../cursors/bright-pink-cursor.png"), pointer;
 }
 
 /* circle stuff */
@@ -367,19 +372,23 @@ button:hover{
 }
 
 .orange-cursor{
-    cursor: url("cursors/orange-cursor.png"), pointer;
+    cursor: url("../cursors/orange-cursor.png"), pointer;
 }
 
 #light-pink{
     background-color: #F7D6FA;
 }
 
-.pink-cursor{
-    cursor: url("cursors/pink-cursor.png"), pointer;
+.light-pink-cursor{
+    cursor: url("../cursors/pink-cursor.png"), pointer;
 }
 
 #bright-green{
     background-color: #00FF00;
+}
+
+.bright-green-cursor{
+    cursor: url("../cursors/bright-green-cursor.png"), pointer;
 }
 
 #red{
@@ -387,7 +396,7 @@ button:hover{
 }
 
 .red-cursor{
-    cursor: url("cursors/red-cursor.png"), pointer;
+    cursor: url("../cursors/red-cursor.png"), pointer;
 }
 
 #purple{
@@ -395,7 +404,7 @@ button:hover{
 }
 
 .purple-cursor{
-    cursor: url("cursors/purple-cursor.png"), pointer;
+    cursor: url("../cursors/purple-cursor.png"), pointer;
 }
 
 #light-blue{
@@ -403,11 +412,15 @@ button:hover{
 }
 
 .light-blue-cursor{
-    cursor: url("cursors/light-blue-cursor.png"), pointer;
+    cursor: url("../cursors/light-blue-cursor.png"), pointer;
 }
 
-#dark-green{
+#green{
     background-color: #09AF00;
+}
+
+.green-cursor{
+    cursor: url("../cursors/green-cursor.png"), pointer;
 }
 
 #bright-pink{
@@ -415,7 +428,7 @@ button:hover{
 }
 
 .bright-green-cursor{
-    cursor: url("cursors/bright-green-cursor.png"), pointer;
+    cursor: url("../cursors/bright-pink-cursor.png"), pointer;
 }
 
 /* aside styling */
@@ -458,6 +471,39 @@ aside{
  }
 
  .bright-info.active {
+    display: block;
+ }
+
+ .crackers-info {
+    display: none;
+ }
+
+ .crackers-info.active {
+    display: block;
+ }
+ 
+
+ .theex-info {
+    display: none;
+ }
+
+ .theex-info.active {
+    display: block;
+ }
+ 
+ .growinggreens-info {
+    display: none;
+ }
+
+ .growinggreens-info.active {
+    display: block;
+ }
+ 
+ .typedesign-info {
+    display: none;
+ }
+
+ .typedesign-info.active {
     display: block;
  }
  

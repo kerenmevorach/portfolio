@@ -376,7 +376,7 @@ button:hover{
 }
 
 #light-pink{
-    background-color: #F7D6FA;
+    background-color: #FF95E8;
 }
 
 .light-pink-cursor{
@@ -428,7 +428,7 @@ button:hover{
 }
 
 .bright-green-cursor{
-    cursor: url("../cursors/bright-pink-cursor.png"), pointer;
+    cursor: url("../cursors/bright-green-cursor.png"), pointer;
 }
 
 /* aside styling */

@@ -241,3 +241,21 @@ typedesignClose.onclick = () =>{
     typedesignInfo.classList.remove('active')
     body.classList.remove('bright-pink-cursor')
 }
+
+
+// window.addEventListener("scroll", scrollToTop);
+
+// function scrollToggle(x) {
+//     if (x.matches) { 
+//       console.log('add')
+//       window.addEventListener("scroll", scrollToTop);
+//     } else {
+//       console.log('remove')
+//       window.removeEventListener("scroll",scrollToTop);
+//     }
+//   }
+
+  
+//   let x = window.matchMedia("(min-width: 660px)")
+//   scrollToggle(x) // Call listener function at run time
+//   x.addListener(scrollToggle) // Attach listener function on state changes

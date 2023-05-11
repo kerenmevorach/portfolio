@@ -56,6 +56,10 @@ video{
     font-weight: 100;
 }
 
+.name:hover{
+    cursor: url("cursors/blue-cursor.png"), pointer;
+}
+
 .activenow{
     border-bottom: 1px black solid;
 }
@@ -174,6 +178,7 @@ button{
 
 button:hover{
     opacity: 0.7;
+    cursor:pointer;
 }
 
 .top{
@@ -187,9 +192,9 @@ button:hover{
 }
 
 
-#eggtoTop:hover{
+/* #eggtoTop:hover{
     cursor: url("cursors/orange-cursor.png"), pointer;
-}
+} */
 
 
 #egg-close{
@@ -198,13 +203,13 @@ button:hover{
 }
 
 
-#orangeTop:hover{
+/* #orangeTop:hover{
     cursor: url("cursors/orange-cursor.png"), pointer;
-}
+} */
 
-#orangeTop:hover{
+/* #orangeTop:hover{
     cursor: url("cursors/orange-cursor.png"), pointer;
-}
+} */
 
 .eggsploration:hover{
     cursor: url("cursors/orange-cursor.png"), pointer;
@@ -217,9 +222,9 @@ button:hover{
 }
 
 
-#boobtoTop:hover{
+/* #boobtoTop:hover{
     cursor: url("cursors/pink.png"), pointer;
-}
+} */
 
 
 #boob-close{
@@ -227,13 +232,13 @@ button:hover{
     color: black;
 }
 
-#boob-close:hover{
+/* #boob-close:hover{
     cursor: url("cursors/pink-cursor.png"), pointer;
-}
+} */
 
-#lightpinkTop:hover{
+/* #lightpinkTop:hover{
     cursor: url("cursors/pink-cursor.png"), pointer;
-}
+} */
 
 .boob-stickers:hover{
     cursor: url("cursors/pink-cursor.png"), pointer;
@@ -246,9 +251,9 @@ button:hover{
 }
 
 
-#brighttoTop:hover{
+/* #brighttoTop:hover{
     cursor: url("cursors/bright-green-cursor.png"), pointer;
-}
+} */
 
 
 #bright-close{
@@ -257,13 +262,13 @@ button:hover{
 }
 
 
-#bright-close:hover{
+/* #bright-close:hover{
     cursor: url("cursors/bright-green-cursor.png"), pointer;
-}
+} */
 
-#greenTop:hover{
+/* #greenTop:hover{
     cursor: url("cursors/bright-green-cursor.png"), pointer;
-}
+} */
 
 .bright:hover{
     cursor: url("cursors/bright-green-cursor.png"), pointer;
@@ -276,9 +281,9 @@ button:hover{
 }
 
 
-#batatoTop:hover{
+/* #batatoTop:hover{
     cursor: url("cursors/red-cursor.png"), pointer;
-}
+} */
 
 
 #bata-close{
@@ -286,13 +291,13 @@ button:hover{
     color: white;
 }
 
-#bata-close:hover{
+/* #bata-close:hover{
     cursor: url("cursors/red-cursor.png"), pointer;
-}
+} */
 
-#redTop:hover{
+/* #redTop:hover{
     cursor: url("cursors/red-cursor.png"), pointer;
-}
+} */
 
 .bata:hover{
     cursor: url("cursors/red-cursor.png"), pointer;

@@ -27,7 +27,6 @@ body{
     width: 100vw;
     height: 100vh;
     margin-top: -30px;
-    /* background-color: red; */
     font-family: 'Neue Haas Unica';
     font-weight: 100;
     font-size: var(--type);
@@ -35,22 +34,17 @@ body{
     cursor: url("cursors/blue-cursor.png"), pointer;
 }
 
+
+/* for navigation */
 nav{
-    /* margin-top: 20px;
-    margin-bottom: 210px; */
     gap: 50px;
     left: -10px;
-    /* left: 0px; */
-    /* top: -30px; */
     top: 15px;
     position: fixed;
     z-index: 2;
     font-weight:100;
 }
 
-video{
-    width: 100%;
-}
 
 .name{
     font-weight: 100;
@@ -65,20 +59,16 @@ video{
 }
 
 
+/* placement of index */
 section{
-    /* margin: 10px; */
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
     top: 66px;
-    /* background-color: #ff3f93; */
 }
 
-aside{
-    margin-left: 0px;
-}
-
+/* index headers */
 .header{
     font-weight: 300;
     margin-top: 25px;
@@ -94,19 +84,14 @@ aside{
     display: none;
 }
 
-.visible{
-    display: block;
-}
-
 .project-year-title{
     display: none;
 }
 
-.line{
-    width: 100%;
-    height: 1px;
-    background-color: black;
+.visible{
+    display: block;
 }
+
 
 .project{
     margin-top: 20px;
@@ -132,29 +117,83 @@ aside{
     margin-left: -10px;
 }
 
-.project-type{
+.project-type, .project-year{
     margin-top: 10px;
     margin-left: 23px;
 }
-
+/* 
 .project-year{
     margin-top: 10px;
     margin-left: 23px;
+} */
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
 }
 
 h1{
     width: 135px;
-    /* background-color: red; */
 }
 
 p{
     margin-top: 30px;
 }
 
+.description-container{
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+
 .underline{
     text-decoration: underline;
 }
 
+/* image styling */
+.image-container{
+    margin-top: 20px;
+ }
+
+ .fullwidth{
+    width: 100%;
+    margin-bottom: 6px;
+    margin-top: 10px;
+ }
+
+ .two-images{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    gap: 0px;
+ }
+
+video {
+    width: 100%;
+}
+
+ .image-border{
+    border: 1.2px solid black;
+    border-radius: 8px;
+ }
+
+ .sidebyside {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+  }
+
+/* bata logo */
+.logo{
+    width: 180px;   
+    margin-left: calc(50% - 100px);
+}
+
+
+/* close and top button styling */
 .two-buttons{
     position: fixed;
     bottom: 20px;
@@ -163,7 +202,6 @@ p{
     right: calc(50% - 100px);
     /* right: 32px; */
 }
-
 
 button{
     width: auto;
@@ -186,104 +224,56 @@ button:hover{
     text-decoration: none;
 }
 
+/* eggs buttons */
 #eggtoTop{
     background-color: #F15825;
     color: white;
 }
-
-
-/* #eggtoTop:hover{
-    cursor: url("cursors/orange-cursor.png"), pointer;
-} */
-
 
 #egg-close{
     background-color: #F15825;
     color: white;
 }
 
-
-/* #orangeTop:hover{
-    cursor: url("cursors/orange-cursor.png"), pointer;
-} */
-
-/* #orangeTop:hover{
-    cursor: url("cursors/orange-cursor.png"), pointer;
-} */
-
 .eggsploration:hover{
     cursor: url("cursors/orange-cursor.png"), pointer;
 }
 
-/* boobs */
+/* boobs buttons */
 #boobtoTop{
     background-color: #F7D6FA;
     color: black;
 }
-
-
-/* #boobtoTop:hover{
-    cursor: url("cursors/pink.png"), pointer;
-} */
-
 
 #boob-close{
     background-color: #F7D6FA;
     color: black;
 }
 
-/* #boob-close:hover{
-    cursor: url("cursors/pink-cursor.png"), pointer;
-} */
-
-/* #lightpinkTop:hover{
-    cursor: url("cursors/pink-cursor.png"), pointer;
-} */
-
 .boob-stickers:hover{
     cursor: url("cursors/pink-cursor.png"), pointer;
 }
 
-/* bright */
+/* bright buttons */
 #brighttoTop{
     background-color: #00FF00;
     color: black;
 }
-
-
-/* #brighttoTop:hover{
-    cursor: url("cursors/bright-green-cursor.png"), pointer;
-} */
-
 
 #bright-close{
     background-color: #00FF00;
     color: black;
 }
 
-
-/* #bright-close:hover{
-    cursor: url("cursors/bright-green-cursor.png"), pointer;
-} */
-
-/* #greenTop:hover{
-    cursor: url("cursors/bright-green-cursor.png"), pointer;
-} */
-
 .bright:hover{
     cursor: url("cursors/bright-green-cursor.png"), pointer;
 }
 
-/* bata */
+/* bata buttons */
 #batatoTop{
     background-color: #CC0033;
     color: white;
 }
-
-
-/* #batatoTop:hover{
-    cursor: url("cursors/red-cursor.png"), pointer;
-} */
 
 
 #bata-close{
@@ -291,33 +281,28 @@ button:hover{
     color: white;
 }
 
-/* #bata-close:hover{
-    cursor: url("cursors/red-cursor.png"), pointer;
-} */
-
-/* #redTop:hover{
-    cursor: url("cursors/red-cursor.png"), pointer;
-} */
 
 .bata:hover{
     cursor: url("cursors/red-cursor.png"), pointer;
 }
 
+/* crackers buttons */
 #crackerstoTop{
     background-color: #B27EED;
-    color: black;
+    color: white;
 }
 
 
 #crackers-close{
     background-color: #B27EED;
-    color: black;
+    color: white;
 }
 
 .crackers:hover{
     cursor: url("cursors/purple-cursor.png"), pointer;
 }
 
+/* the ex buttons */
 #theextoTop{
     background-color: #4EEDFF;
     color: black;
@@ -330,9 +315,10 @@ button:hover{
 }
 
 .theex:hover{
-    cursor: url("cursors/bright-blue-cursor.png"), pointer;
+    cursor: url("cursors/light-blue-cursor.png"), pointer;
 }
 
+/* growing greens buttons */
 #growinggreenstoTop{
     background-color: #09AF00;
     color: black;
@@ -348,11 +334,11 @@ button:hover{
     cursor: url("cursors/green-cursor.png"), pointer;
 }
 
+/* type design buttons */
 #typedesigntoTop{
     background-color: #ff3f93;
     color: black;
 }
-
 
 #typedesign-close{
     background-color: #ff3f93;
@@ -363,22 +349,8 @@ button:hover{
     cursor: url("cursors/bright-pink-cursor.jpg"), pointer;
 }
 
-
-.description-container{
-    display: grid;
-    grid-template-columns: 1fr;
- }
-
 /* circle stuff */
 .circle{
-    width: var(--circle-size);
-    height: var(--circle-size);
-    border-radius: 50%;
-    margin-top: 2px;
-    margin-right: 8px;
-}
-
-.circle-animation{
     width: var(--circle-size);
     height: var(--circle-size);
     border-radius: 50%;
@@ -422,8 +394,16 @@ button:hover{
     background-color: #B27EED;
 }
 
+.purple-cursor{
+    cursor: url("cursors/purple-cursor.png"), pointer;
+}
+
 #light-blue{
     background-color: #4EEDFF;
+}
+
+.light-blue-cursor{
+    cursor: url("cursors/light-blue-cursor.png"), pointer;
 }
 
 #dark-green{
@@ -438,39 +418,27 @@ button:hover{
     cursor: url("cursors/bright-green-cursor.png"), pointer;
 }
 
-/* project toggle stuff */
-/* aside{
-    overflow: hidden;
-    height: 100%;
-    transition: height 0.5s ease-in-out;
-}
-
-aside.active{
-    height: 0;
-    transition: height 0.5s ease-in-out;
-} */
-
-.eggsploration-info {
-    /* overflow: hidden;
-    max-height: 0;
-    transition: all 0.6s ease-in-out; */
-    display: none;
+/* aside styling */
+aside{
+    /* margin-left: 8px;
+    margin-right: 8px; */
+    margin-left: 0px;
     padding: 34px;
     padding-top: 0px;
+    padding-bottom: 14px;
+}
+
+.eggsploration-info {
+    display: none;
  }
 
  .eggsploration-info.active {
-    /* overflow: auto;
-    max-height: 100%; */
     display: block;
  }
 
 
  .boob-stickers-info {
     display: none;
-    padding: 34px;
-    padding-bottom: 14px;
-    padding-top: 0px;
  }
 
  .boob-stickers-info.active {
@@ -479,8 +447,6 @@ aside.active{
 
  .bright-info {
     display: none;
-    padding: 34px;
-    padding-top: 0px;
  }
 
  .bata-info.active {
@@ -489,8 +455,6 @@ aside.active{
 
  .bata-info {
     display: none;
-    padding: 34px;
-    padding-top: 0px;
  }
 
  .bright-info.active {
@@ -498,61 +462,8 @@ aside.active{
  }
  
 
- .fullwidth{
-    width: 100%;
-    margin-bottom: 6px;
-    margin-top: 10px;
-    /* width: calc(100% - 40px); */
-    /* margin-left: 20px;
-    margin-right: 20px; */
-    /* margin-left: 33px;
-    margin-right: 33px; */
- }
-
- .two-images{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 14px;
-    gap: 0px;
- }
-
- .image-border{
-    border: 1.2px solid black;
-    border-radius: 8px;
- }
-
- .sidebyside {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 100%;
-    /* margin-left: 33px; */
-    /* padding: 4px; */
-    /* width: calc(100% - 40px); */
-    /* margin-left: 20px; */
-    /* margin-right: 20px; */
-    /* margin-right: 33px; */
-    /* padding-top: 5px; */
-  }
-
-.logo{
-    width: 180px;   
-    margin-left: calc(50% - 100px);
-}
-
- .image-container{
-    margin-top: 20px;
- }
 
  @media (min-width: 660px) {
-
-    h1{
-        /* width: 26vw; */
-        /* background-color: violet; */
-    }
-
     .project{
         margin-top: 8px;
         margin-bottom: 8px;
@@ -592,35 +503,22 @@ aside.active{
         top: -30px;
         width: 100%;
     }
-
-    aside{
-        margin-left: 8px;
-        margin-right: 8px;
-    }
     
     .indent{
         margin-left: 0px;
     }
     
     .project-info{
-    /* flex-direction: row; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
     margin: 10px;  
     margin-left: 20px;  
-    /* margin-left: 20px; */
-    }
-
-    .project-info li{
-        /* background-color: red; */
     }
 
     .two-images{
         flex-direction: row;
-        /* max-width: 100%; */
         width: 50%;
-        /* width: 49.2%; */
      }
 
 
@@ -639,13 +537,11 @@ aside.active{
 
     p{
         max-width: 60vw;
-        /* background-color: green; */
     }
     
     .description-container{
         display: grid;
         grid-template-columns: 1fr, 1fr;
-        /* gap: 100px; */
      }
 
      .two-buttons{

@@ -298,6 +298,23 @@ button:hover{
     cursor: url("cursors/red-cursor.png"), pointer;
 }
 
+.crackers:hover{
+    cursor: url("cursors/purple-cursor.png"), pointer;
+}
+
+.theex:hover{
+    cursor: url("cursors/bright-blue-cursor.png"), pointer;
+}
+
+.growinggreens:hover{
+    cursor: url("cursors/green-cursor.png"), pointer;
+}
+
+.typedesign:hover{
+    cursor: url("cursors/pink-cursor.png"), pointer;
+}
+
+
 .description-container{
     display: grid;
     grid-template-columns: 1fr;

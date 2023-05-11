@@ -303,16 +303,60 @@ button:hover{
     cursor: url("cursors/red-cursor.png"), pointer;
 }
 
+#crackerstoTop{
+    background-color: #B27EED;
+    color: black;
+}
+
+
+#crackers-close{
+    background-color: #B27EED;
+    color: black;
+}
+
 .crackers:hover{
     cursor: url("cursors/purple-cursor.png"), pointer;
+}
+
+#theextoTop{
+    background-color: #4EEDFF;
+    color: black;
+}
+
+
+#theex-close{
+    background-color: #4EEDFF;
+    color: black;
 }
 
 .theex:hover{
     cursor: url("cursors/bright-blue-cursor.png"), pointer;
 }
 
+#growinggreenstoTop{
+    background-color: #09AF00;
+    color: black;
+}
+
+
+#growinggreens-close{
+    background-color: #09AF00;
+    color: black;
+}
+
 .growinggreens:hover{
     cursor: url("cursors/green-cursor.png"), pointer;
+}
+
+#typedesigntoTop{
+    background-color: #ff3f93;
+    color: black;
+}
+
+
+#typedesign-close{
+    background-color: #ff3f93;
+    color: black;
 }
 
 .typedesign:hover{

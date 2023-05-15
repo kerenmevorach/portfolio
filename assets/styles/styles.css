@@ -31,7 +31,7 @@ body{
     font-weight: 100;
     font-size: var(--type);
     line-height: var(--leading);
-    cursor: url("../cursors/blue-cursor.png"), pointer;
+    /* cursor: url("../cursors/blue-cursor.png"), pointer; */
     /* cursor: url("../cursors/cursor.svg") x y, pointer; */
 }
 
@@ -55,9 +55,9 @@ nav{
     font-weight: 100;
 }
 
-.name:hover{
+/* .name:hover{
     cursor: url("../cursors/blue-cursor.png"), pointer;
-}
+} */
 
 .activenow{
     border-bottom: 1px black solid;
@@ -110,7 +110,17 @@ section{
 
 .project-info:hover{
     color: rgb(152, 152, 152);
-    cursor: url("../cursors/blue-cursor.png"), pointer;
+    /* cursor: url("../cursors/blue-cursor.png"), pointer; */
+}
+
+h2{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+h2:hover{
+    cursor:pointer;
 }
 
 .project-name{
@@ -241,7 +251,7 @@ button:hover{
 }
 
 .eggsploration:hover{
-    cursor: url("../cursors/orange-cursor.png"), pointer;
+    /* cursor: url("../cursors/orange-cursor.png"), pointer; */
 }
 
 /* boobs buttons */
@@ -256,7 +266,7 @@ button:hover{
 }
 
 .boob-stickers:hover{
-    cursor: url("../cursors/pink-cursor.png"), pointer;
+    /* cursor: url("../cursors/pink-cursor.png"), pointer; */
 }
 
 /* bright buttons */
@@ -271,7 +281,7 @@ button:hover{
 }
 
 .bright:hover{
-    cursor: url("../cursors/bright-green-cursor.png"), pointer;
+    /* cursor: url("../cursors/bright-green-cursor.png"), pointer; */
 }
 
 /* bata buttons */
@@ -288,7 +298,7 @@ button:hover{
 
 
 .bata:hover{
-    cursor: url("../cursors/red-cursor.png"), pointer;
+    /* cursor: url("../cursors/red-cursor.png"), pointer; */
 }
 
 /* crackers buttons */
@@ -304,7 +314,7 @@ button:hover{
 }
 
 .crackers:hover{
-    cursor: url("../cursors/purple-cursor.png"), pointer;
+    /* cursor: url("../cursors/purple-cursor.png"), pointer; */
 }
 
 /* the ex buttons */
@@ -320,7 +330,7 @@ button:hover{
 }
 
 .theex:hover{
-    cursor: url("../cursors/light-blue-cursor.png"), pointer;
+    /* cursor: url("../cursors/light-blue-cursor.png"), pointer; */
 }
 
 /* growing greens buttons */
@@ -336,7 +346,7 @@ button:hover{
 }
 
 .growinggreens:hover{
-    cursor: url("../cursors/green-cursor.png"), pointer;
+    /* cursor: url("../cursors/green-cursor.png"), pointer; */
 }
 
 /* type design buttons */
@@ -351,7 +361,7 @@ button:hover{
 }
 
 .typedesign:hover{
-    cursor: url("../cursors/bright-pink-cursor.png"), pointer;
+    /* cursor: url("../cursors/bright-pink-cursor.png"), pointer; */
 }
 
 /* circle stuff */
@@ -372,7 +382,7 @@ button:hover{
 }
 
 .orange-cursor{
-    cursor: url("../cursors/orange-cursor.png"), pointer;
+    /* cursor: url("../cursors/orange-cursor.png"), pointer; */
 }
 
 #light-pink{
@@ -380,7 +390,7 @@ button:hover{
 }
 
 .light-pink-cursor{
-    cursor: url("../cursors/pink-cursor.png"), pointer;
+    /* cursor: url("../cursors/pink-cursor.png"), pointer; */
 }
 
 #bright-green{
@@ -388,7 +398,7 @@ button:hover{
 }
 
 .bright-green-cursor{
-    cursor: url("../cursors/bright-green-cursor.png"), pointer;
+    /* cursor: url("../cursors/bright-green-cursor.png"), pointer; */
 }
 
 #red{
@@ -396,7 +406,7 @@ button:hover{
 }
 
 .red-cursor{
-    cursor: url("../cursors/red-cursor.png"), pointer;
+    /* cursor: url("../cursors/red-cursor.png"), pointer; */
 }
 
 #purple{
@@ -404,7 +414,7 @@ button:hover{
 }
 
 .purple-cursor{
-    cursor: url("../cursors/purple-cursor.png"), pointer;
+    /* cursor: url("../cursors/purple-cursor.png"), pointer; */
 }
 
 #light-blue{
@@ -412,7 +422,7 @@ button:hover{
 }
 
 .light-blue-cursor{
-    cursor: url("../cursors/light-blue-cursor.png"), pointer;
+    /* cursor: url("../cursors/light-blue-cursor.png"), pointer; */
 }
 
 #green{
@@ -420,7 +430,7 @@ button:hover{
 }
 
 .green-cursor{
-    cursor: url("../cursors/green-cursor.png"), pointer;
+    /* cursor: url("../cursors/green-cursor.png"), pointer; */
 }
 
 #bright-pink{
@@ -428,7 +438,7 @@ button:hover{
 }
 
 .bright-green-cursor{
-    cursor: url("../cursors/bright-green-cursor.png"), pointer;
+    /* cursor: url("../cursors/bright-green-cursor.png"), pointer; */
 }
 
 /* aside styling */

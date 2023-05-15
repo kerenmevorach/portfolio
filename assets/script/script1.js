@@ -59,6 +59,14 @@ eggsploration.onclick = () =>{
     typedesignInfo.classList.remove('active')
     body.classList.remove('bright-pink-cursor')
     // document.querySelector("link[rel*='icon']").href = "assets/cursors/orange-cursor.png";
+
+    // if (x.matches) { 
+        //       console.log('add')
+        //       window.addEventListener("scroll", scrollToTop);
+        //     } else {
+        //       console.log('remove')
+        //       window.removeEventListener("scroll",scrollToTop);
+        //     }
 }
 
 eggClose.onclick = () =>{

@@ -15,9 +15,10 @@
 	src: url('../fonts/NeueHaasUnica-Bold.ttf') format('truetype');
 	font-weight: 300;
  }
+ 
 
 :root{
-    --type: 18px;
+    --type: 17.5px;
     --leading: 22px;
     --circle-size: 15px;
 }
@@ -29,6 +30,9 @@ body{
     margin-top: -30px;
     font-family: 'Neue Haas Unica';
     font-weight: 100;
+    /* font-family: "neue-haas-grotesk-text", sans-serif; */
+    /* font-weight: 400; */
+    font-style: normal;
     font-size: var(--type);
     line-height: var(--leading);
     /* cursor: url("../cursors/blue-cursor.png"), pointer; */
@@ -37,6 +41,15 @@ body{
 
 strong{
     font-weight: 300;
+    /* font-family: "neue-haas-grotesk-text", sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+}
+
+em{
+    /* font-family: "neue-haas-grotesk-text", sans-serif; */
+    font-weight: 400;
+    font-style: italic;
 }
 
 /* body:hover{
@@ -79,7 +92,11 @@ section{
 
 /* index headers */
 .header{
-    font-weight: 300;
+    /* font-weight: 300; */
+    /* font-family: "neue-haas-grotesk-text", sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+
     margin-top: 25px;
     margin-bottom: 20px;
     display: grid;
@@ -211,6 +228,10 @@ p{
 
 .new-part{
     margin-top: 60px;
+}
+
+.next-steps{
+    margin-top: 40px;
 }
 
 /* image styling */
@@ -603,8 +624,6 @@ aside{
     display: block;
  }
  
-
-
  @media (min-width: 660px) {
 
     nav{
@@ -638,6 +657,11 @@ aside{
         margin: 0px;
     }
 
+    aside{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     .header{
         gap: 50px;
         margin-top: 55px;
@@ -664,14 +688,20 @@ aside{
         width: 60vw;
     }
 
-    .new-part{
-        margin-top: 100px;
-    }
-
     p{
         max-width: 60vw;
     }
-    
+
+ }
+
+ /* @media (min-width: 660px) { */
+ @media (min-width: 900px) {
+
+    .new-part{
+        margin-top: 90px;
+    }
+
+ 
     .description-container{
         display: grid;
         grid-template-columns: 1fr, 1fr;
@@ -718,17 +748,18 @@ aside{
         right: 33px;
     }
 
-    aside{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
 
     .left{
-        margin-left: -14px;
+        margin-left: -1.75vw;
     }
 
     .left2{
         margin-left: -23px;
+    }
+
+    .next-steps{
+        margin-top: 10px;
+        margin-left: 24px;
     }
     
  }

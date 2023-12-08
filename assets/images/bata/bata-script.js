@@ -21,14 +21,22 @@ let a1verticalleft = document.getElementById('a1vertical1')
 let a1verticalright = document.getElementById('a1vertical2')
 let a1horizontaltop = document.getElementById('a1tophorizontal')
 let a1horizontalmiddle = document.getElementById('a1middlehorizontal')
+let a1lefthorizontal = document.getElementById('a1lefthorizontal')
+let a1righthorizontal = document.getElementById('a1righthorizontal')
 
 let ttophorizontal = document.getElementById('ttophorizontal')
+let tvertical1 = document.getElementById('tvertical1')
+let tvertical2 = document.getElementById('tvertical2')
 let tvertical3 = document.getElementById('tvertical3')
+let tbottomhorizontal = document.getElementById('tbottomhorizontal')
+
 
 let a2verticalleft = document.getElementById('a2vertical1')
 let a2verticalright = document.getElementById('a2vertical2')
 let a2horizontaltop = document.getElementById('a2tophorizontal')
 let a2horizontalmiddle = document.getElementById('a2middlehorizontal')
+let a2lefthorizontal = document.getElementById('a2lefthorizontal')
+let a2righthorizontal = document.getElementById('a2righthorizontal')
 
 let shoemuseum = document.getElementById('shoe')
 
@@ -51,8 +59,9 @@ let blackoutline = document.getElementById('blackoutline')
 
 // height:
 
-let square1height = Math.random() * (380 - 93 + 1) + 90
-let square2height = Math.random() * (380 - 93 + 1) + 90
+
+let square1height = Math.random() * (370 - 110) + 110
+let square2height = Math.random() * (370 - 110) + 110
 let square3height = 475 - square1height
 let square4height = 475 - square2height
 
@@ -101,14 +110,21 @@ a1verticalleft.style.backgroundColor = randomcolor1
 a1verticalright.style.backgroundColor = randomcolor1
 a1horizontaltop.style.backgroundColor = randomcolor1
 a1horizontalmiddle.style.backgroundColor = randomcolor1
+a1lefthorizontal.style.backgroundColor = randomcolor1
+a1righthorizontal.style.backgroundColor = randomcolor1
 
 ttophorizontal.style.backgroundColor = randomcolor1
+tvertical1.style.backgroundColor = randomcolor1
+tvertical2.style.backgroundColor = randomcolor1
 tvertical3.style.backgroundColor = randomcolor1
+tbottomhorizontal.style.backgroundColor = randomcolor1
 
 a2verticalleft.style.backgroundColor = randomcolor1
 a2verticalright.style.backgroundColor = randomcolor1
 a2horizontaltop.style.backgroundColor = randomcolor1
 a2horizontalmiddle.style.backgroundColor = randomcolor1
+a2lefthorizontal.style.backgroundColor = randomcolor1
+a2righthorizontal.style.backgroundColor = randomcolor1
 
 shoemuseum.style.color = randomcolor1
 
@@ -143,14 +159,21 @@ navy.onclick = function () {
   a1verticalright.style.backgroundColor = 'rgb(54, 73, 131)'
   a1horizontaltop.style.backgroundColor = 'rgb(54, 73, 131)'
   a1horizontalmiddle.style.backgroundColor = 'rgb(54, 73, 131)'
+  a1lefthorizontal.style.backgroundColor = 'rgb(54, 73, 131)'
+  a1righthorizontal.style.backgroundColor = 'rgb(54, 73, 131)'
 
   ttophorizontal.style.backgroundColor = 'rgb(54, 73, 131)'
   tvertical3.style.backgroundColor = 'rgb(54, 73, 131)'
+  tvertical1.style.backgroundColor = 'rgb(54, 73, 131)'
+  tvertical2.style.backgroundColor = 'rgb(54, 73, 131)'
+  tbottomhorizontal.style.backgroundColor = 'rgb(54, 73, 131)'
 
   a2verticalleft.style.backgroundColor = 'rgb(54, 73, 131)'
   a2verticalright.style.backgroundColor = 'rgb(54, 73, 131)'
   a2horizontaltop.style.backgroundColor = 'rgb(54, 73, 131)'
   a2horizontalmiddle.style.backgroundColor = 'rgb(54, 73, 131)'
+  a2lefthorizontal.style.backgroundColor = 'rgb(54, 73, 131)'
+  a2righthorizontal.style.backgroundColor = 'rgb(54, 73, 131)'
 
   shoemuseum.style.color = 'rgb(54, 73, 131)'
 }
@@ -174,14 +197,22 @@ red.onclick = function () {
   a1verticalright.style.backgroundColor = 'rgb(204, 0, 51)'
   a1horizontaltop.style.backgroundColor = 'rgb(204, 0, 51)'
   a1horizontalmiddle.style.backgroundColor = 'rgb(204, 0, 51)'
+  a1lefthorizontal.style.backgroundColor = 'rgb(204, 0, 51)'
+  a1righthorizontal.style.backgroundColor = 'rgb(204, 0, 51)'
 
   ttophorizontal.style.backgroundColor = 'rgb(204, 0, 51)'
   tvertical3.style.backgroundColor = 'rgb(204, 0, 51)'
+  tvertical1.style.backgroundColor = 'rgb(204, 0, 51)'
+  tvertical2.style.backgroundColor = 'rgb(204, 0, 51)'
+  tbottomhorizontal.style.backgroundColor = 'rgb(204, 0, 51)'
 
   a2verticalleft.style.backgroundColor = 'rgb(204, 0, 51)'
   a2verticalright.style.backgroundColor = 'rgb(204, 0, 51)'
   a2horizontaltop.style.backgroundColor = 'rgb(204, 0, 51)'
   a2horizontalmiddle.style.backgroundColor = 'rgb(204, 0, 51)'
+  a2lefthorizontal.style.backgroundColor = 'rgb(204, 0, 51)'
+  a2righthorizontal.style.backgroundColor = 'rgb(204, 0, 51)'
+
 
   shoemuseum.style.color = 'rgb(204, 0, 51)'
 }
@@ -205,14 +236,21 @@ green.onclick = function () {
   a1verticalright.style.backgroundColor = 'rgb(179, 230, 14)'
   a1horizontaltop.style.backgroundColor = 'rgb(179, 230, 14)'
   a1horizontalmiddle.style.backgroundColor = 'rgb(179, 230, 14)'
+  a1lefthorizontal.style.backgroundColor = 'rgb(179, 230, 14)'
+  a1righthorizontal.style.backgroundColor = 'rgb(179, 230, 14)'
 
   ttophorizontal.style.backgroundColor = 'rgb(179, 230, 14)'
   tvertical3.style.backgroundColor = 'rgb(179, 230, 14)'
+  tvertical1.style.backgroundColor = 'rgb(179, 230, 14)'
+  tvertical2.style.backgroundColor = 'rgb(179, 230, 14)'
+  tbottomhorizontal.style.backgroundColor = 'rgb(179, 230, 14)'
 
   a2verticalleft.style.backgroundColor = 'rgb(179, 230, 14)'
   a2verticalright.style.backgroundColor = 'rgb(179, 230, 14)'
   a2horizontaltop.style.backgroundColor = 'rgb(179, 230, 14)'
   a2horizontalmiddle.style.backgroundColor = 'rgb(179, 230, 14)'
+  a2lefthorizontal.style.backgroundColor = 'rgb(179, 230, 14)'
+  a2righthorizontal.style.backgroundColor = 'rgb(179, 230, 14)'
 
   shoemuseum.style.color = 'rgb(179, 230, 14)'
 }
@@ -236,14 +274,21 @@ pink.onclick = function () {
   a1verticalright.style.backgroundColor = 'rgb(220, 116, 337)'
   a1horizontaltop.style.backgroundColor = 'rgb(220, 116, 337)'
   a1horizontalmiddle.style.backgroundColor = 'rgb(220, 116, 337)'
+  a1lefthorizontal.style.backgroundColor = 'rgb(220, 116, 337)'
+  a1righthorizontal.style.backgroundColor = 'rgb(220, 116, 337)'
 
   ttophorizontal.style.backgroundColor = 'rgb(220, 116, 337)'
   tvertical3.style.backgroundColor = 'rgb(220, 116, 337)'
+  tvertical1.style.backgroundColor = 'rgb(220, 116, 337)'
+  tvertical2.style.backgroundColor = 'rgb(220, 116, 337)'
+  tbottomhorizontal.style.backgroundColor = 'rgb(220, 116, 337)'
 
   a2verticalleft.style.backgroundColor = 'rgb(220, 116, 337)'
   a2verticalright.style.backgroundColor = 'rgb(220, 116, 337)'
   a2horizontaltop.style.backgroundColor = 'rgb(220, 116, 337)'
   a2horizontalmiddle.style.backgroundColor = 'rgb(220, 116, 337)'
+  a2lefthorizontal.style.backgroundColor = 'rgb(220, 116, 337)'
+  a2righthorizontal.style.backgroundColor = 'rgb(220, 116, 337)'
 
   shoemuseum.style.color = 'rgb(220, 116, 337)'
 }
@@ -267,14 +312,21 @@ blue.onclick = function () {
   a1verticalright.style.backgroundColor = 'rgb(0, 133, 219)'
   a1horizontaltop.style.backgroundColor = 'rgb(0, 133, 219)'
   a1horizontalmiddle.style.backgroundColor = 'rgb(0, 133, 219)'
+  a1lefthorizontal.style.backgroundColor = 'rgb(0, 133, 219)'
+  a1righthorizontal.style.backgroundColor = 'rgb(0, 133, 219)'
 
   ttophorizontal.style.backgroundColor = 'rgb(0, 133, 219)'
   tvertical3.style.backgroundColor = 'rgb(0, 133, 219)'
+  tvertical1.style.backgroundColor = 'rgb(0, 133, 219)'
+  tvertical2.style.backgroundColor = 'rgb(0, 133, 219)'
+  tbottomhorizontal.style.backgroundColor = 'rgb(0, 133, 219)'
 
   a2verticalleft.style.backgroundColor = 'rgb(0, 133, 219)'
   a2verticalright.style.backgroundColor = 'rgb(0, 133, 219)'
   a2horizontaltop.style.backgroundColor = 'rgb(0, 133, 219)'
   a2horizontalmiddle.style.backgroundColor = 'rgb(0, 133, 219)'
+  a2lefthorizontal.style.backgroundColor = 'rgb(0, 133, 219)'
+  a2righthorizontal.style.backgroundColor = 'rgb(0, 133, 219)'
 
   shoemuseum.style.color = 'rgb(0, 133, 219)'
 }
@@ -298,14 +350,21 @@ orange.onclick = function () {
   a1verticalright.style.backgroundColor = 'rgb(255, 161, 0)'
   a1horizontaltop.style.backgroundColor = 'rgb(255, 161, 0)'
   a1horizontalmiddle.style.backgroundColor = 'rgb(255, 161, 0)'
+  a1lefthorizontal.style.backgroundColor = 'rgb(255, 161, 0)'
+  a1righthorizontal.style.backgroundColor = 'rgb(255, 161, 0)'
 
   ttophorizontal.style.backgroundColor = 'rgb(255, 161, 0)'
   tvertical3.style.backgroundColor = 'rgb(255, 161, 0)'
+  tvertical1.style.backgroundColor = 'rgb(255, 161, 0)'
+  tvertical2.style.backgroundColor = 'rgb(255, 161, 0)'
+  tbottomhorizontal.style.backgroundColor = 'rgb(255, 161, 0)'
 
   a2verticalleft.style.backgroundColor = 'rgb(255, 161, 0)'
   a2verticalright.style.backgroundColor = 'rgb(255, 161, 0)'
   a2horizontaltop.style.backgroundColor = 'rgb(255, 161, 0)'
   a2horizontalmiddle.style.backgroundColor = 'rgb(255, 161, 0)'
+  a2lefthorizontal.style.backgroundColor = 'rgb(255, 161, 0)'
+  a2righthorizontal.style.backgroundColor = 'rgb(255, 161, 0)'
 
   shoemuseum.style.color = 'rgb(255, 161, 0)'
 }
@@ -329,14 +388,21 @@ black.onclick = function () {
   a1verticalright.style.backgroundColor = 'black'
   a1horizontaltop.style.backgroundColor = 'black'
   a1horizontalmiddle.style.backgroundColor = 'black'
+  a1lefthorizontal.style.backgroundColor = 'black'
+  a1righthorizontal.style.backgroundColor = 'black'
 
   ttophorizontal.style.backgroundColor = 'black'
   tvertical3.style.backgroundColor = 'black'
+  tvertical1.style.backgroundColor = 'black'
+  tvertical2.style.backgroundColor = 'black'
+  tbottomhorizontal.style.backgroundColor = 'black'
 
   a2verticalleft.style.backgroundColor = 'black'
   a2verticalright.style.backgroundColor = 'black'
   a2horizontaltop.style.backgroundColor = 'black'
   a2horizontalmiddle.style.backgroundColor = 'black'
+  a2lefthorizontal.style.backgroundColor = 'black'
+  a2righthorizontal.style.backgroundColor = 'black'
 
   shoemuseum.style.color = 'black'
 }

@@ -7,6 +7,9 @@ const googlie = document.querySelector('.googlie');
 const googlieInfo = document.querySelector('.googlie-info');
 const googlieClose = document.querySelector('#googlie-close');
 
+// const canada = document.querySelector('.canada');
+// const canadaInfo = document.querySelector('.canada-info');
+// const canadaClose = document.querySelector('#canada-close');
 
 const eggsploration = document.querySelector('.eggsploration');
 const eggsplorationInfo = document.querySelector('.eggsploration-info');
@@ -70,6 +73,32 @@ googlieClose.onclick = () =>{
     googlieInfo.classList.remove('active')
 }
 
+
+// canada.onclick = () =>{
+//     console.log('canada')
+//     canadaInfo.classList.toggle('active')
+//     googlieInfo.classList.remove('active')
+//     eggsplorationInfo.classList.remove('active')
+//     body.classList.remove('orange-cursor')
+//     boobStickersInfo.classList.remove('active')
+//     body.classList.remove('light-pink-cursor')
+//     brightInfo.classList.remove('active')
+//     body.classList.remove('bright-green-cursor')
+//     bataInfo.classList.remove('active')
+//     body.classList.remove('red-cursor')
+//     crackersInfo.classList.remove('active')
+//     body.classList.remove('purple-cursor')
+//     theexInfo.classList.remove('active')
+//     body.classList.remove('light-blue-cursor')
+//     growinggreensInfo.classList.remove('active')
+//     body.classList.remove('green-cursor')
+//     typedesignInfo.classList.remove('active')
+//     body.classList.remove('bright-pink-cursor')
+// }  
+
+// canadaClose.onclick = () =>{
+//     canadaInfo.classList.remove('active')
+// }
 
 eggsploration.onclick = () =>{
     console.log('eggs')

@@ -334,6 +334,18 @@ button:hover{
 
 
 /* eggs buttons */
+#canadatoTop{
+    background-color: red;
+    color: white;
+}
+
+#canada-close{
+    background-color: red;
+    color: white;
+}
+
+
+/* eggs buttons */
 #eggtoTop{
     background-color: #F15825;
     color: white;
@@ -475,6 +487,10 @@ button:hover{
     background-color: #FFD600;
 }
 
+#bright-red{
+    background-color: red;
+}
+
 #orange{
     background-color: #F15825;
 }
@@ -557,6 +573,14 @@ aside{
     display: block;
  }
 
+ .canada-info {
+    display: none;
+ }
+
+ .canada-info.active {
+    display: block;
+ }
+
 
 .eggsploration-info {
     display: none;
@@ -622,6 +646,10 @@ aside{
 
  .typedesign-info.active {
     display: block;
+ }
+
+ a:hover{
+    cursor: pointer;
  }
  
  @media (min-width: 660px) {

@@ -174,7 +174,7 @@ h2:hover{
 }
 
 h1{
-    width: 135px;
+    /* width: 135px; */
 }
 
 p{
@@ -330,6 +330,18 @@ button:hover{
 #googlie-close{
     background-color: #FFD600;
     color: black;
+}
+
+
+/* magazzino buttons */
+#magazzinotoTop{
+    background-color: #b40000;
+    color: white;
+}
+
+#magazzino-close{
+    background-color: #b40000;
+    color: white;
 }
 
 
@@ -495,6 +507,14 @@ button:hover{
     background-color: #F15825;
 }
 
+#magazzinored{
+    background-color: #b40000;
+}
+
+#lwosblue{
+    background-color: #61aab9;
+}
+
 .orange-cursor{
     /* cursor: url("../cursors/orange-cursor.png"), pointer; */
 }
@@ -565,87 +585,135 @@ aside{
     padding-bottom: 14px;
 }
 
+@keyframes fadeIn {
+	0% { display: none; }
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+	100% { display: block; }
+  }
+
+@keyframes fadeOut {
+	0% { display: block; }
+	0% { opacity: 1; }
+	100% { opacity: 0; }
+	100% { display: none; }
+}
+
+
 .googlie-info {
     display: none;
+    animation: fadeOut 0.2s;
+
  }
 
  .googlie-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
 
  .canada-info {
     display: none;
+    animation: fadeOut 0.2s;
  }
 
  .canada-info.active {
     display: block;
+    animation: fadeIn 0.25s;
+
  }
 
+ .magazzino-info {
+    display: none;
+    animation: fadeOut 0.2s;
+
+ }
+
+ .magazzino-info.active {
+    display: block;
+    /* transition: 0.5s; */
+    animation: fadeIn 0.25s;
+ }
 
 .eggsploration-info {
     display: none;
+    animation: fadeOut 0.2s;
  }
 
  .eggsploration-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
 
 
  .boob-stickers-info {
     display: none;
+    animation: fadeOut 0.2s;
  }
 
  .boob-stickers-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
 
  .bright-info {
     display: none;
+    animation: fadeOut 0.2s;
  }
 
  .bata-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
 
  .bata-info {
     display: none;
+    animation: fadeOut 0.2s;
  }
 
  .bright-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
 
  .crackers-info {
     display: none;
+    animation: fadeOut 0.2s;
  }
 
  .crackers-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
  
 
  .theex-info {
     display: none;
+    animation: fadeOut 0.2s;
  }
 
  .theex-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
  
  .growinggreens-info {
     display: none;
+    animation: fadeOut 0.2s;
  }
 
  .growinggreens-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
  
  .typedesign-info {
     display: none;
+    animation: fadeOut 0.2s;
  }
 
  .typedesign-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
 
  a:hover{

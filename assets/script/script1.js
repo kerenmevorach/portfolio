@@ -15,6 +15,11 @@ const eggsploration = document.querySelector('.eggsploration');
 const eggsplorationInfo = document.querySelector('.eggsploration-info');
 const eggClose = document.querySelector('#egg-close');
 
+
+const magazzino = document.querySelector('.magazzino');
+const magazzinoInfo = document.querySelector('.magazzino-info');
+const magazzinoClose = document.querySelector('#magazzino-close');
+
 const boobStickers = document.querySelector('.boob-stickers');
 const boobStickersInfo = document.querySelector('.boob-stickers-info');
 const boobClose = document.querySelector('#boob-close');
@@ -51,26 +56,37 @@ function scrollToTop(){
   googlie.onclick = () =>{
     console.log('eggs')
     googlieInfo.classList.toggle('active')
+    magazzinoInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
-    body.classList.remove('orange-cursor')
     boobStickersInfo.classList.remove('active')
-    body.classList.remove('light-pink-cursor')
     brightInfo.classList.remove('active')
-    body.classList.remove('bright-green-cursor')
     bataInfo.classList.remove('active')
-    body.classList.remove('red-cursor')
     crackersInfo.classList.remove('active')
-    body.classList.remove('purple-cursor')
     theexInfo.classList.remove('active')
-    body.classList.remove('light-blue-cursor')
     growinggreensInfo.classList.remove('active')
-    body.classList.remove('green-cursor')
     typedesignInfo.classList.remove('active')
-    body.classList.remove('bright-pink-cursor')
 }  
 
 googlieClose.onclick = () =>{
     googlieInfo.classList.remove('active')
+}
+
+magazzino.onclick = () =>{
+    console.log('magazzino')
+    magazzinoInfo.classList.toggle('active')
+    eggsplorationInfo.classList.remove('active')
+    googlieInfo.classList.remove('active')
+    boobStickersInfo.classList.remove('active')
+    brightInfo.classList.remove('active')
+    bataInfo.classList.remove('active')
+    crackersInfo.classList.remove('active')
+    theexInfo.classList.remove('active')
+    growinggreensInfo.classList.remove('active')
+    typedesignInfo.classList.remove('active')
+}  
+
+magazzinoClose.onclick = () =>{
+    magazzinoInfo.classList.remove('active')
 }
 
 
@@ -78,6 +94,7 @@ googlieClose.onclick = () =>{
 //     console.log('canada')
 //     canadaInfo.classList.toggle('active')
 //     googlieInfo.classList.remove('active')
+//     magazzinoInfo.classList.remove('active')
 //     eggsplorationInfo.classList.remove('active')
 //     body.classList.remove('orange-cursor')
 //     boobStickersInfo.classList.remove('active')
@@ -103,6 +120,7 @@ googlieClose.onclick = () =>{
 eggsploration.onclick = () =>{
     console.log('eggs')
     googlieInfo.classList.remove('active')
+    magazzinoInfo.classList.remove('active')
     eggsplorationInfo.classList.toggle('active')
     body.classList.toggle('orange-cursor')
     boobStickersInfo.classList.remove('active')
@@ -139,6 +157,7 @@ eggClose.onclick = () =>{
 boobStickers.onclick = () =>{
     console.log('boobs')
     googlieInfo.classList.remove('active')
+    magazzinoInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     body.classList.remove('orange-cursor')
     boobStickersInfo.classList.toggle('active')
@@ -165,6 +184,7 @@ boobClose.onclick = () =>{
 bright.onclick = () =>{
     console.log('bright')
     googlieInfo.classList.remove('active')
+    magazzinoInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     body.classList.remove('orange-cursor')
     boobStickersInfo.classList.remove('active')
@@ -192,6 +212,7 @@ brightClose.onclick = () =>{
 bata.onclick = () =>{
     console.log('bata')
     googlieInfo.classList.remove('active')
+    magazzinoInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     body.classList.remove('orange-cursor')
     boobStickersInfo.classList.remove('active')
@@ -218,6 +239,7 @@ bataClose.onclick = () =>{
 crackers.onclick = () =>{
     console.log('bata')
     googlieInfo.classList.remove('active')
+    magazzinoInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     body.classList.remove('orange-cursor')
     boobStickersInfo.classList.remove('active')
@@ -244,6 +266,7 @@ crackersClose.onclick = () =>{
 theex.onclick = () =>{
     console.log('bata')
     googlieInfo.classList.remove('active')
+    magazzinoInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     body.classList.remove('orange-cursor')
     boobStickersInfo.classList.remove('active')
@@ -270,6 +293,7 @@ theexClose.onclick = () =>{
 growinggreens.onclick = () =>{
     console.log('bata')
     googlieInfo.classList.remove('active')
+    magazzinoInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     body.classList.remove('orange-cursor')
     boobStickersInfo.classList.remove('active')
@@ -296,6 +320,7 @@ growinggreensClose.onclick = () =>{
 typedesign.onclick = () =>{
     console.log('bata')
     googlieInfo.classList.remove('active')
+    magazzinoInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     body.classList.remove('orange-cursor')
     boobStickersInfo.classList.remove('active')

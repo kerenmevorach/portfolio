@@ -6,10 +6,12 @@ p{
     padding: 34px;
     padding-top: 0px;
     padding-bottom: 14px;
+    animation: fadeOut 0.2s;
  }
 
  .whoisshe-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
 
 
@@ -18,10 +20,12 @@ p{
     padding: 34px;
     padding-top: 0px;
     padding-bottom: 14px;
+    animation: fadeOut 0.2s;
  }
 
  .experience-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
 
 
@@ -30,10 +34,12 @@ p{
     padding: 34px;
     padding-top: 0px;
     padding-bottom: 14px;
+    animation: fadeOut 0.2s;
  }
 
  .education-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
 
 
@@ -42,10 +48,12 @@ p{
     padding: 34px;
     padding-top: 0px;
     padding-bottom: 14px;
+    animation: fadeOut 0.2s;
  }
 
  .awards-info.active {
     display: block;
+    animation: fadeIn 0.25s;
  }
 
  .project{

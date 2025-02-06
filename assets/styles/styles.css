@@ -174,7 +174,7 @@ h2:hover{
 }
 
 h1{
-    /* width: 135px; */
+    width: 129px;
 }
 
 p{
@@ -601,7 +601,7 @@ aside{
 
 
 .googlie-info {
-    display: none;
+    /* display: none; */
     animation: fadeOut 0.2s;
 
  }
@@ -849,9 +849,9 @@ aside{
         margin-left: -1.75vw;
     }
 
-    .left2{
+    /* .left2{
         margin-left: -23px;
-    }
+    } */
 
     .next-steps{
         margin-top: 10px;

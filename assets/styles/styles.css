@@ -332,6 +332,18 @@ button:hover{
     color: black;
 }
 
+#setthebar-close{
+    outline: white solid 1pt;
+    background-color: black;
+    color: white;
+}
+
+#setthebartoTop{
+    outline: white solid 1pt;
+    background-color: black;
+    color: white;
+}
+
 
 /* magazzino buttons */
 #magazzinotoTop{
@@ -512,8 +524,8 @@ button:hover{
 }
 
 #black{
-    background-color: white;
-    outline: black 1pt solid;
+    background-color: black;
+    /* outline: black 1pt solid; */
     width: 14px;
     height: 14px;
 }

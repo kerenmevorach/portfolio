@@ -511,6 +511,13 @@ button:hover{
     background-color: #b40000;
 }
 
+#black{
+    background-color: white;
+    outline: black 1pt solid;
+    width: 14px;
+    height: 14px;
+}
+
 #lwosblue{
     background-color: #61aab9;
 }
@@ -631,6 +638,17 @@ aside{
  .magazzino-info.active {
     display: block;
     /* transition: 0.5s; */
+    animation: fadeIn 0.25s;
+ }
+
+ .setthebar-info {
+    display: none;
+    animation: fadeOut 0.2s;
+
+ }
+
+ .setthebar-info.active {
+    display: block;
     animation: fadeIn 0.25s;
  }
 

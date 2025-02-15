@@ -296,6 +296,10 @@ video {
     padding-bottom: 5px;
 }
 
+#orange-red-background{
+    /* background-color: #f6391c; */
+}
+
 .small-video{
     width: 100%;
     /* margin-top: 20px; */
@@ -556,6 +560,12 @@ button:hover{
     background-color: #b40000;
 }
 
+#orange-red{
+    background-color: #ff3600;
+}
+
+
+
 #black{
     background-color: black;
     /* outline: black 1pt solid; */
@@ -711,6 +721,17 @@ aside{
  }
 
  .theartpod-info.active {
+    display: block;
+    animation: fadeIn 0.25s;
+ }
+
+ .wesleyan-info {
+    display: none;
+    animation: fadeOut 0.2s;
+
+ }
+
+ .wesleyan-info.active {
     display: block;
     animation: fadeIn 0.25s;
  }

@@ -283,6 +283,27 @@ video {
     height: auto;
   }
 
+
+  .video-background{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 40px;
+    padding-bottom: 5px;
+}
+
+.small-video{
+    width: 100%;
+    /* margin-top: 20px; */
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+
+
 /* bata logo */
 .logo{
     width: 180px;   
@@ -354,6 +375,18 @@ button:hover{
 #magazzino-close{
     background-color: #b40000;
     color: white;
+}
+
+#theartpod-close{
+    outline: black solid 1pt;
+    background-color: white;
+    color: black;
+}
+
+#theartpodtoTop{
+    outline: black solid 1pt;
+    background-color: white;
+    color: black;
 }
 
 
@@ -530,6 +563,13 @@ button:hover{
     height: 14px;
 }
 
+#black-stroke{
+    background-color: white;
+    outline: black 1pt solid;
+    width: 14px;
+    height: 14px;
+}
+
 #lwosblue{
     background-color: #61aab9;
 }
@@ -663,6 +703,19 @@ aside{
     display: block;
     animation: fadeIn 0.25s;
  }
+
+ .theartpod-info {
+    display: none;
+    animation: fadeOut 0.2s;
+
+ }
+
+ .theartpod-info.active {
+    display: block;
+    animation: fadeIn 0.25s;
+ }
+
+
 
 .eggsploration-info {
     display: none;
@@ -818,6 +871,28 @@ aside{
         max-width: 60vw;
     }
 
+    .video-background{    
+        justify-content:center;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        padding: 40px;
+        gap: 4%;
+        width: 100%;
+        height: auto;
+    }
+    
+    .small-video{
+        width: 30%;
+        /* margin-top: 20px; */
+        margin: 0px;
+        border-radius: 14px;
+        position: relative;
+        left: -6%;
+    }
+
  }
 
  /* @media (min-width: 660px) { */
@@ -921,7 +996,6 @@ aside{
     .header{
         gap: 180px;
     }
-
 
         
  }

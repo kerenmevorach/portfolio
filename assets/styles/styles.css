@@ -291,7 +291,7 @@ video {
     align-items: flex-start;
     width: 100%;
     height: auto;
-    background-color: black;
+    background-color: #181818;
     padding: 40px;
     padding-bottom: 5px;
 }
@@ -307,6 +307,22 @@ video {
     border-radius: 10px;
 }
 
+
+.sidebyside-video {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+  }
+
+  .two-videos{
+    width: 100%;
+    /* margin-top: 20px; */
+    margin-bottom: 35px;
+}
 
 /* bata logo */
 .logo{
@@ -400,6 +416,16 @@ button:hover{
 
 #wesleyantoTop{
     background-color: #ff2600;
+    color: white;
+}
+
+#lwos-close{
+    background-color: #599eab;
+    color: white;
+}
+
+#lwostoTop{
+    background-color: #599eab;
     color: white;
 }
 
@@ -590,7 +616,7 @@ button:hover{
 }
 
 #lwosblue{
-    background-color: #61aab9;
+    background-color: #599eab;
 }
 
 .orange-cursor{
@@ -741,6 +767,18 @@ aside{
  }
 
  .wesleyan-info.active {
+    display: block;
+    animation: fadeIn 0.25s;
+ }
+
+
+ .lwos-info {
+    display: none;
+    animation: fadeOut 0.2s;
+
+ }
+
+ .lwos-info.active {
     display: block;
     animation: fadeIn 0.25s;
  }
@@ -907,7 +945,7 @@ aside{
         align-items: flex-start;
         width: 100%;
         height: auto;
-        background-color: black;
+        background-color: #181818;
         padding: 40px;
         gap: 4%;
         width: 100%;
@@ -957,6 +995,26 @@ aside{
         width: 98%;
         height: auto;
         align-items: flex-start;
+    }
+
+    .sidebyside-video {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+        gap: 2%;
+      }
+    
+      .two-videos{
+        width: 49%;
+        /* margin-top: 20px; */
+        /* margin-bottom: 35px; */
+        position: relative;
+        left: -2%;
+        margin-bottom: 10px;
     }
 
     .half-text{

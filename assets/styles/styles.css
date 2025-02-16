@@ -393,6 +393,15 @@ button:hover{
     color: black;
 }
 
+#wesleyan-close{
+    background-color: #ff2600;
+    color: white;
+}
+
+#wesleyantoTop{
+    background-color: #ff2600;
+    color: white;
+}
 
 /* eggs buttons */
 #canadatoTop{
@@ -561,7 +570,7 @@ button:hover{
 }
 
 #orange-red{
-    background-color: #ff3600;
+    background-color: #ff2600;
 }
 
 

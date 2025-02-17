@@ -32,6 +32,10 @@ const wesleyan = document.querySelector('.wesleyan');
 const wesleyanInfo = document.querySelector('.wesleyan-info');
 const wesleyanClose = document.querySelector('#wesleyan-close');
 
+const lwos = document.querySelector('.lwos');
+const lwosInfo = document.querySelector('.lwos-info');
+const lwosClose = document.querySelector('#lwos-close');
+
 const boobStickers = document.querySelector('.boob-stickers');
 const boobStickersInfo = document.querySelector('.boob-stickers-info');
 const boobClose = document.querySelector('#boob-close');
@@ -110,6 +114,7 @@ setthebar.onclick = () =>{
     setthebarInfo.classList.toggle('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')
@@ -131,6 +136,7 @@ theartpod.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.toggle('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')
@@ -152,6 +158,7 @@ wesleyan.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.toggle('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')
@@ -165,7 +172,29 @@ wesleyan.onclick = () =>{
 
 wesleyanClose.onclick = () =>{
     wesleyanInfo.classList.remove('active')
+}
+
+lwos.onclick = () =>{
+    console.log('theartpod')
+    magazzinoInfo.classList.remove('active')
+    setthebarInfo.classList.remove('active')
+    theartpodInfo.classList.remove('active')
+    wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.toggle('active')
+    googlieInfo.classList.remove('active')
+    eggsplorationInfo.classList.remove('active')
+    boobStickersInfo.classList.remove('active')
+    brightInfo.classList.remove('active')
+    bataInfo.classList.remove('active')
+    crackersInfo.classList.remove('active')
+    theexInfo.classList.remove('active')
+    growinggreensInfo.classList.remove('active')
+    typedesignInfo.classList.remove('active')
 }  
+
+lwosClose.onclick = () =>{
+    lwosInfo.classList.remove('active')
+}
 
 googlie.onclick = () =>{
     console.log('eggs')
@@ -173,6 +202,7 @@ googlie.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.toggle('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')
@@ -254,6 +284,7 @@ eggsploration.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.toggle('active')
     boobStickersInfo.classList.remove('active')
@@ -278,6 +309,7 @@ boobStickers.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.toggle('active')
@@ -300,6 +332,7 @@ bright.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')
@@ -323,6 +356,7 @@ bata.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')
@@ -345,6 +379,7 @@ crackers.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')
@@ -367,6 +402,7 @@ theex.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')
@@ -389,6 +425,7 @@ growinggreens.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')
@@ -411,6 +448,7 @@ typedesign.onclick = () =>{
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')
     wesleyanInfo.classList.remove('active')
+    lwosInfo.classList.remove('active')
     googlieInfo.classList.remove('active')
     eggsplorationInfo.classList.remove('active')
     boobStickersInfo.classList.remove('active')

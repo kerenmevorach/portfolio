@@ -798,7 +798,7 @@ aside{
  }
 
 
- /* .lwos-info {
+ .lwos-info {
     display: none;
     animation: fadeOut 0.2s;
 
@@ -807,7 +807,7 @@ aside{
  .lwos-info.active {
     display: block;
     animation: fadeIn 0.25s;
- } */
+ }
 
 
 

@@ -57,6 +57,10 @@ em{
     margin-bottom: 22px;
 }
 
+.top-margin-small{
+    margin-top: 20px;
+}
+
 /* body:hover{
     cursor: url("../cursors/blue-cursor.png"), pointer;
 } */
@@ -455,6 +459,16 @@ button:hover{
     color: white;
 }
 
+#tribeca-close{
+    background-color: #3dadf8;
+    color: white;
+}
+
+#tribecatoTop{
+    background-color: #3dadf8;
+    color: white;
+}
+
 /* eggs buttons */
 #canadatoTop{
     background-color: red;
@@ -645,6 +659,10 @@ button:hover{
     background-color: #599eab;
 }
 
+#tcs{
+    background-color: #3dadf8;
+}
+
 .orange-cursor{
     /* cursor: url("../cursors/orange-cursor.png"), pointer; */
 }
@@ -805,6 +823,18 @@ aside{
  }
 
  .lwos-info.active {
+    display: block;
+    animation: fadeIn 0.25s;
+ }
+
+
+ .tribeca-info {
+    display: none;
+    animation: fadeOut 0.2s;
+
+ }
+
+ .tribeca-info.active {
     display: block;
     animation: fadeIn 0.25s;
  }

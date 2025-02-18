@@ -392,24 +392,13 @@ button:hover{
     text-decoration: none;
 }
 
-/* googlie buttons */
-#googlietoTop{
+
+.googlie-buttons{
     background-color: #FFD600;
     color: black;
 }
 
-#googlie-close{
-    background-color: #FFD600;
-    color: black;
-}
-
-#setthebar-close{
-    outline: white solid 1pt;
-    background-color: black;
-    color: white;
-}
-
-#setthebartoTop{
+.setthebar-buttons{
     outline: white solid 1pt;
     background-color: black;
     color: white;
@@ -417,60 +406,38 @@ button:hover{
 
 
 /* magazzino buttons */
-#magazzinotoTop{
+.magazzino-buttons{
     background-color: #b40000;
     color: white;
 }
 
-#magazzino-close{
-    background-color: #b40000;
-    color: white;
-}
 
-#theartpod-close{
+.theartpod-buttons{
     outline: black solid 1pt;
     background-color: white;
     color: black;
 }
 
-#theartpodtoTop{
-    outline: black solid 1pt;
-    background-color: white;
-    color: black;
-}
 
-#wesleyan-close{
+.wesleyan-buttons{
     background-color: #ff2600;
     color: white;
 }
 
-#wesleyantoTop{
-    background-color: #ff2600;
-    color: white;
-}
 
-#lwos-close{
+.lwos-buttons{
     background-color: #599eab;
     color: white;
 }
 
-#lwostoTop{
-    background-color: #599eab;
-    color: white;
-}
 
-#tribeca-close{
+.tribeca-buttons{
     background-color: #3dadf8;
     color: white;
 }
 
-#tribecatoTop{
-    background-color: #3dadf8;
-    color: white;
-}
 
-/* eggs buttons */
-#canadatoTop{
+/* #canadatoTop{
     background-color: red;
     color: white;
 }
@@ -478,132 +445,47 @@ button:hover{
 #canada-close{
     background-color: red;
     color: white;
-}
+} */
 
 
-/* eggs buttons */
-#eggtoTop{
+.egg-buttons{
     background-color: #F15825;
     color: white;
 }
 
-#egg-close{
-    background-color: #F15825;
-    color: white;
-}
 
-.eggsploration:hover{
-    /* cursor: url("../cursors/orange-cursor.png"), pointer; */
-}
-
-/* boobs buttons */
-#boobtoTop{
+.boob-buttons{
     background-color: #FF95E8;
     color: black;
 }
 
-#boob-close{
-    background-color: #FF95E8;
-    color: black;
-}
-
-.boob-stickers:hover{
-    /* cursor: url("../cursors/pink-cursor.png"), pointer; */
-}
-
-/* bright buttons */
-#brighttoTop{
+.bright-buttons{
     background-color: #00FF00;
     color: black;
 }
 
-#bright-close{
-    background-color: #00FF00;
-    color: black;
-}
 
-.bright:hover{
-    /* cursor: url("../cursors/bright-green-cursor.png"), pointer; */
-}
-
-/* bata buttons */
-#batatoTop{
+.bata-buttons{
     background-color: #CC0033;
     color: white;
 }
 
-
-#bata-close{
-    background-color: #CC0033;
-    color: white;
-}
-
-
-.bata:hover{
-    /* cursor: url("../cursors/red-cursor.png"), pointer; */
-}
-
-/* crackers buttons */
-#crackerstoTop{
+.crackers-buttons{
     background-color: #B27EED;
     color: white;
 }
 
 
-#crackers-close{
-    background-color: #B27EED;
-    color: white;
-}
-
-.crackers:hover{
-    /* cursor: url("../cursors/purple-cursor.png"), pointer; */
-}
-
-/* the ex buttons */
-#theextoTop{
-    background-color: #4EEDFF;
-    color: black;
-}
-
-
-#theex-close{
-    background-color: #4EEDFF;
-    color: black;
-}
-
-.theex:hover{
-    /* cursor: url("../cursors/light-blue-cursor.png"), pointer; */
-}
-
-/* growing greens buttons */
-#growinggreenstoTop{
+.growinggreens-buttons{
     background-color: #09AF00;
     color: white;
 }
 
-
-#growinggreens-close{
-    background-color: #09AF00;
-    color: white;
-}
-
-.growinggreens:hover{
-    /* cursor: url("../cursors/green-cursor.png"), pointer; */
-}
 
 /* type design buttons */
-#typedesigntoTop{
+.typedesign-buttons{
     background-color: #ff3f93;
     color: white;
-}
-
-#typedesign-close{
-    background-color: #ff3f93;
-    color: white;
-}
-
-.typedesign:hover{
-    /* cursor: url("../cursors/bright-pink-cursor.png"), pointer; */
 }
 
 /* circle stuff */

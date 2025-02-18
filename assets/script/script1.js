@@ -1,4 +1,5 @@
 const body = document.querySelector('#back-to-top');
+const toTop = document.querySelectorAll('.to-top');
 
 const circleAnimation = document.querySelector('.circle-animation');
 const section = document.querySelector('section');
@@ -73,6 +74,13 @@ const typedesignClose = document.querySelector('#typedesign-close');
     console.log("scrollToTop triggered");
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+toTop.forEach(button => {
+    button.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+});
 
 
 //   function closeProjects(){

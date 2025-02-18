@@ -69,6 +69,11 @@ function scrollToTop(){
     window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
+//   function scrollToTop() {
+//     console.log("scrollToTop triggered");
+//     window.scrollTo({ top: 0, behavior: 'smooth' });
+// }
+
 
 //   function closeProjects(){
 //     magazzinoInfo.classList.remove('active')
@@ -216,7 +221,7 @@ tribeca.onclick = () =>{
 }  
 
 tribecaClose.onclick = () =>{
-    lwosInfo.classList.remove('active')
+    tribecaInfo.classList.remove('active')
 }
 
 googlie.onclick = () =>{
@@ -397,7 +402,7 @@ bataClose.onclick = () =>{
 }
 
 crackers.onclick = () =>{
-    console.log('bata')
+    console.log('crackers')
     magazzinoInfo.classList.remove('active')
     setthebarInfo.classList.remove('active')
     theartpodInfo.classList.remove('active')

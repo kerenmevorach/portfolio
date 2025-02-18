@@ -21,6 +21,7 @@
     --type: 17.5px;
     --leading: 22px;
     --circle-size: 15px;
+    --lwos-pink: #ff88a4;
 }
 
 
@@ -426,7 +427,7 @@ button:hover{
 
 
 .lwos-buttons{
-    background-color: #599eab;
+    background-color: var(--lwos-pink);
     color: white;
 }
 
@@ -538,7 +539,7 @@ button:hover{
 }
 
 #lwosblue{
-    background-color: #599eab;
+    background-color: var(--lwos-pink);
 }
 
 #tcs{

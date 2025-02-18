@@ -70,10 +70,6 @@ const typedesignClose = document.querySelector('#typedesign-close');
 //     window.scrollTo({top: 0, behavior: 'smooth'});
 //   }
 
-  function scrollToTop() {
-    console.log("scrollToTop triggered");
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
 
 toTop.forEach(button => {
     button.addEventListener('click', (event) => {

@@ -1,4 +1,4 @@
-const body = document.querySelector('body');
+const body = document.querySelector('#back-to-top');
 
 const circleAnimation = document.querySelector('.circle-animation');
 const section = document.querySelector('section');
@@ -65,14 +65,14 @@ const typedesignInfo = document.querySelector('.typedesign-info');
 const typedesignClose = document.querySelector('#typedesign-close');
 
 
-function scrollToTop(){
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
+// function scrollToTop(){
+//     window.scrollTo({top: 0, behavior: 'smooth'});
+//   }
 
-//   function scrollToTop() {
-//     console.log("scrollToTop triggered");
-//     window.scrollTo({ top: 0, behavior: 'smooth' });
-// }
+  function scrollToTop() {
+    console.log("scrollToTop triggered");
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 
 
 //   function closeProjects(){

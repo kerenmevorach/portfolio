@@ -1,13 +1,13 @@
-const body = document.querySelector('#back-to-top');
-const toTop = document.querySelectorAll('.to-top');
+const body = document.querySelector("#back-to-top");
+const toTop = document.querySelectorAll(".to-top");
 
-const circleAnimation = document.querySelector('.circle-animation');
-const section = document.querySelector('section');
+const circleAnimation = document.querySelector(".circle-animation");
+const section = document.querySelector("section");
 
-toTop.forEach(button => {
-  button.addEventListener('click', event => {
+toTop.forEach((button) => {
+  button.addEventListener("click", (event) => {
     event.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 });
 
@@ -27,9 +27,9 @@ toTop.forEach(button => {
 //   scrollToggle(x) // Call listener function at run time
 //   x.addListener(scrollToggle) // Attach listener function on state changes
 
-const projects = Array.from(document.getElementsByClassName('project'));
+const projects = Array.from(document.getElementsByClassName("project"));
 
-const nav = document.getElementById('nav');
+const nav = document.getElementById("nav");
 const navHeight = nav.getBoundingClientRect().height;
 
 projects.forEach(project => {

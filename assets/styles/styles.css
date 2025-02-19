@@ -75,6 +75,7 @@ nav{
     position: fixed;
     z-index: 2;
     font-weight:100;
+    background-color: white;
 }
 
 
@@ -630,6 +631,10 @@ aside{
 	100% { display: none; }
 }
 
+.show {
+  display: block !important;
+  animation: fadeIn 0.3s forwards !important;
+}
 
 .googlie-info {
     display: none;

@@ -625,10 +625,8 @@ aside{
   }
 
 @keyframes fadeOut {
-	0% { display: block; }
 	0% { opacity: 1; }
-	100% { opacity: 0; }
-	100% { display: none; }
+	100% { opacity: 0;}
 }
 
 .show {
@@ -636,9 +634,12 @@ aside{
   animation: fadeIn 0.3s forwards !important;
 }
 
+.fade-out {
+  animation: fadeOut 0.4s forwards !important;
+}
+
 .googlie-info {
     display: none;
-    animation: fadeOut 0.2s;
 
  }
 
@@ -649,7 +650,6 @@ aside{
 
  .canada-info {
     display: none;
-    animation: fadeOut 0.2s;
  }
 
  .canada-info.active {
@@ -660,7 +660,6 @@ aside{
 
  .magazzino-info {
     display: none;
-    animation: fadeOut 0.2s;
 
  }
 
@@ -672,7 +671,6 @@ aside{
 
  .setthebar-info {
     display: none;
-    animation: fadeOut 0.2s;
 
  }
 
@@ -683,7 +681,6 @@ aside{
 
  .theartpod-info {
     display: none;
-    animation: fadeOut 0.2s;
 
  }
 
@@ -694,7 +691,6 @@ aside{
 
  .wesleyan-info {
     display: none;
-    animation: fadeOut 0.2s;
 
  }
 
@@ -706,7 +702,6 @@ aside{
 
  .lwos-info {
     display: none;
-    animation: fadeOut 0.2s;
 
  }
 
@@ -718,7 +713,6 @@ aside{
 
  .tribeca-info {
     display: none;
-    animation: fadeOut 0.2s;
 
  }
 
@@ -731,7 +725,6 @@ aside{
 
 .eggsploration-info {
     display: none;
-    animation: fadeOut 0.2s;
  }
 
  .eggsploration-info.active {
@@ -742,7 +735,6 @@ aside{
 
  .boob-stickers-info {
     display: none;
-    animation: fadeOut 0.2s;
  }
 
  .boob-stickers-info.active {
@@ -752,7 +744,6 @@ aside{
 
  .bright-info {
     display: none;
-    animation: fadeOut 0.2s;
  }
 
  .bata-info.active {
@@ -762,7 +753,6 @@ aside{
 
  .bata-info {
     display: none;
-    animation: fadeOut 0.2s;
  }
 
  .bright-info.active {
@@ -772,7 +762,6 @@ aside{
 
  .crackers-info {
     display: none;
-    animation: fadeOut 0.2s;
  }
 
  .crackers-info.active {
@@ -783,7 +772,6 @@ aside{
 
  .theex-info {
     display: none;
-    animation: fadeOut 0.2s;
  }
 
  .theex-info.active {
@@ -793,7 +781,6 @@ aside{
  
  .growinggreens-info {
     display: none;
-    animation: fadeOut 0.2s;
  }
 
  .growinggreens-info.active {
@@ -803,12 +790,10 @@ aside{
  
  .typedesign-info {
     display: none;
-    animation: fadeOut 0.2s;
  }
 
  .typedesign-info.active {
     display: block;
-    animation: fadeIn 0.25s;
  }
 
  a:hover{
@@ -902,7 +887,6 @@ aside{
         margin: 0px;
         border-radius: 14px;
         position: relative;
-        left: -6%;
     }
 
     .three-image-background{
@@ -979,7 +963,6 @@ aside{
         /* margin-top: 20px; */
         /* margin-bottom: 35px; */
         position: relative;
-        left: -2%;
         margin-bottom: 10px;
     }
 

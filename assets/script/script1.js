@@ -6,6 +6,8 @@ const section = document.querySelector("section");
 
 toTop.forEach((button) => {
   button.addEventListener("click", (event) => {
+    console.log("scroll");
+    event.stopPropagation(); // Prevent the click from affecting parent elements
     event.preventDefault();
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
@@ -33,23 +35,27 @@ const nav = document.getElementById("nav");
 const navHeight = nav.getBoundingClientRect().height;
 
 projects.forEach((project) => {
-  project.addEventListener("click", function (el) {
-    ``;
-    // Close all the other projects
+  project.addEventListener("click", function (event) {
+    const infoContainer = this.querySelector(".info-container");
+    const closeButton = this.querySelector(".close");
+    const projectInfo = this.querySelector(".project-info"); // The entire row
+
+    // If the clicked element is NOT the close button and NOT inside .project-info, do nothing
+    if (event.target !== closeButton && !projectInfo.contains(event.target)) {
+      return;
+    }
+
+    // Close all other projects
     projects.forEach((otherProject) => {
       if (otherProject !== this) {
-        otherProject
-          .querySelector(".info-container")
-          ?.classList.add("fade-out");
         otherProject.querySelector(".info-container")?.classList.remove("show");
       }
     });
 
-    // Show the content inside the clicked project
-    const infoContainer = this.querySelector(".info-container");
+    // Toggle visibility of the clicked project
     infoContainer.classList.toggle("show");
 
-    // Scroll to the top of the project with 100px of breathing room
+    // Scroll to the top of the project
     window.scrollTo({
       top: this.getBoundingClientRect().top + window.scrollY - navHeight,
       behavior: "smooth",

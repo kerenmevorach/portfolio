@@ -52,7 +52,7 @@ em {
 }
 
 .bottom-margin {
-  margin-top: 88px;
+  margin-top: 75px;
   margin-bottom: 22px;
 }
 
@@ -338,6 +338,29 @@ video {
   margin-bottom: 35px;
   border-radius: 20px;
   /* border-radius: 20px; */
+}
+
+.image-fourth {
+  width: 100%;
+  /* margin-top: 20px; */
+  /* margin-bottom: 35px; */
+  border-radius: 20px;
+  /* border-radius: 20px; */
+}
+
+.image-and-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.caption {
+  font-size: calc(var(--type) / 1.5);
+  line-height: calc(var(--leading) / 1.5);
+  color: white;
+  margin-top: -5px;
+  margin-bottom: 40px;
+  margin-left: 3px;
 }
 
 /* bata logo */
@@ -896,6 +919,20 @@ a:hover {
     /* border-radius: 20px; */
     /* position: relative;
         left: -6%; */
+  }
+
+  .image-fourth {
+    /* width: 23%; */
+    /* margin-top: 20px; */
+    margin: 0px;
+  }
+
+  .caption {
+    font-size: calc(var(--type) / 1.5);
+    line-height: calc(var(--leading) / 1.5);
+    color: white;
+    margin-top: -5px;
+    margin-bottom: 0px;
   }
 }
 

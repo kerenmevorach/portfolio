@@ -162,7 +162,7 @@ h2:hover {
 }
 
 .indent {
-  margin-left: -10px;
+  margin-left: 13px;
 }
 
 .project-type,
@@ -863,7 +863,7 @@ a:hover {
   }
 
   .indent {
-    margin-left: 0px;
+    margin-left: 23px;
   }
 
   .project-info {

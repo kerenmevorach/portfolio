@@ -1,23 +1,27 @@
 @font-face {
-	font-family: 'Pangram Sans Rounded';
-	src: url('PPPangramSansRounded-Medium.ttf') format('truetype');
-	font-weight: 100;
- }
+  font-family: "Pangram Sans Rounded";
+  src: url("PPPangramSansRounded-Medium.ttf") format("truetype");
+  font-weight: 100;
+}
 
- canvas{
+canvas {
   display: none;
-  }
+}
 
- .blocker{
+.content {
+  margin-top: 0px;
+}
+
+.blocker {
   display: flex;
-  background-color: #FF95E8;
+  background-color: #ff95e8;
   margin: -8px;
   position: fixed;
   width: 100%;
   height: 100%;
 }
 
-p{
+p {
   font-size: 40px;
   line-height: 40px;
   max-width: 18ch;
@@ -25,7 +29,7 @@ p{
 }
 
 body {
-  font-family: 'Pangram Sans Rounded', sans-serif;
+  font-family: "Pangram Sans Rounded", sans-serif;
   font-weight: 100;
   font-size: 12px;
   font-weight: 100;
@@ -34,36 +38,35 @@ body {
   /* background-color: rgb(247, 198, 255); */
 }
 
-
 body,
-      input,
-      canvas {
-        border: 0px solid #aaa;
-      }
-      fieldset {
-        margin: 0;
-        padding: 0;
-        border: none;
-      }
-      fieldset legend {
-        padding: 0;
-      }
-      fieldset ul {
-        padding: 0;
-      }
-      fieldset li {
-        list-style: none;
-        margin-bottom: 0.5em;
-      }
-      fieldset label {
-        display: inline-block;
-        line-height: 10px;
-        width: 120px;
-      }
-      fieldset input {
-        border-radius: 0;
-        border: 1px solid #aaa;
-      }
+input,
+canvas {
+  border: 0px solid #aaa;
+}
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+fieldset legend {
+  padding: 0;
+}
+fieldset ul {
+  padding: 0;
+}
+fieldset li {
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+fieldset label {
+  display: inline-block;
+  line-height: 10px;
+  width: 120px;
+}
+fieldset input {
+  border-radius: 0;
+  border: 1px solid #aaa;
+}
 
 h1 {
   text-align: center;
@@ -88,17 +91,17 @@ h2 {
   margin-left: 1px;
 }
 
-h3{
-text-align: left;
-font-size: 18px;
-width: 150px;
-margin-left: 1px;
+h3 {
+  text-align: left;
+  font-size: 18px;
+  width: 150px;
+  margin-left: 1px;
 }
 
 canvas {
   position: fixed;
   left: calc(50% - 250px);
-  top: 75px;
+  top: 105px;
 }
 
 #outline1 {
@@ -121,7 +124,7 @@ canvas {
   top: 470px;
 }
 
-.skintone{
+.skintone {
   position: relative;
   left: 0px;
   top: 30px;
@@ -132,7 +135,6 @@ canvas {
   position: relative;
   left: 23px;
 }
-
 
 /* #download:hover{
   opacity: 0.7;
@@ -150,8 +152,8 @@ canvas {
   top: 12px;
 } */
 
-.button{
-  background-color: #FF95E8;
+.button {
+  background-color: #ff95e8;
   border-radius: 20px;
   /* padding: 8px; */
   padding-left: 12px;
@@ -164,11 +166,10 @@ canvas {
   margin-top: 6px;
 }
 
-.button:hover{
+.button:hover {
   opacity: 0.7;
   cursor: pointer;
 }
-
 
 #randomizeboobs:hover {
   opacity: 0.7;
@@ -179,66 +180,65 @@ canvas {
   color: red;
 }
 
-input[type='range'] {
+input[type="range"] {
   height: 2px;
   -webkit-appearance: none;
   margin: 10px 0;
   width: 150px;
   position: relative;
   /* left: 20px; */
-  top:9px;
-  background-color: #FF95E8;
+  top: 9px;
+  background-color: #ff95e8;
   border-color: transparent;
   border-radius: 10px;
 }
 
-input[type='range']::-webkit-slider-thumb {
+input[type="range"]::-webkit-slider-thumb {
   box-shadow: 0px 0px 0px #000000;
-  border: 1px solid #FF95E8;
+  border: 1px solid #ff95e8;
   height: 16px;
   width: 16px;
   border-radius: 25px;
   /* background: rgb(255, 124, 244); */
-  background: #FF95E8;
+  background: #ff95e8;
   cursor: pointer;
   -webkit-appearance: none;
   /* margin-top: -2px; */
 }
 
-.side-by-side{
+.side-by-side {
   display: flex;
   flex-direction: row;
   gap: 80px;
   margin-top: -8px;
 }
 
-#nudge{
+#nudge {
   position: relative;
   left: -24px;
 }
 
-
-.labels{
-width: 795px;
-/* background-color: red; */
-margin-left: auto;
-margin-right: auto;
-top: -150px;
-position: fixed;
-left: calc(50% - 397.5px);
-top: -60px;
+.labels {
+  width: 795px;
+  /* background-color: red; */
+  margin-left: auto;
+  margin-right: auto;
+  top: -150px;
+  position: fixed;
+  left: calc(50% - 397.5px);
+  top: -30px;
 }
 
-
-
-
-@media (min-width: 810px){
-  canvas{
+@media (min-width: 810px) {
+  canvas {
     display: flex;
   }
 
-  .blocker{
+  .blocker {
     display: none;
   }
 
+  .content {
+    margin-top: 30px;
+  }
 }

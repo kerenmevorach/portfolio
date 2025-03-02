@@ -817,6 +817,14 @@ a:hover {
   display: none;
 }
 
+.desktop-video {
+  display: none;
+}
+
+.mobile-video {
+  display: block;
+}
+
 @media (min-width: 660px) {
   nav {
     left: 0px;
@@ -904,7 +912,7 @@ a:hover {
   }
 
   .three-image-background {
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: row;
     align-items: flex-start;
     width: 100%;
@@ -937,6 +945,14 @@ a:hover {
     color: white;
     margin-top: -5px;
     margin-bottom: 0px;
+  }
+
+  .desktop-video {
+    display: block;
+  }
+
+  .mobile-video {
+    display: none;
   }
 
   /* .remove {

@@ -438,7 +438,7 @@ button:hover {
 }
 
 .tribeca-buttons {
-  background-color: #3dadf8;
+  background-color: #5cb56e;
   color: white;
 }
 
@@ -468,7 +468,7 @@ button:hover {
 }
 
 .bata-buttons {
-  background-color: #cc0033;
+  background-color: rgb(83, 191, 244);
   color: white;
 }
 
@@ -540,7 +540,7 @@ button:hover {
 }
 
 #tcs {
-  background-color: #3dadf8;
+  background-color: #5cb56e;
 }
 
 .orange-cursor {
@@ -564,7 +564,7 @@ button:hover {
 }
 
 #red {
-  background-color: #cc0033;
+  background-color: rgb(83, 191, 244);
 }
 
 .red-cursor {

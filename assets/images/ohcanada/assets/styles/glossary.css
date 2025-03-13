@@ -1,0 +1,133 @@
+:root{
+    --term: 100px;
+}
+
+
+.bullet{
+    /* background-color: red; */
+    border: 1px var(--text-color) solid;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+.bullet-and-term{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 29px;
+    margin-top: 15px;
+}
+
+#glossary-container{
+    margin-top: calc(var(--spacing) - 15px);
+    margin-left: calc(var(--left-margin) - 22px);
+}
+
+.line{
+    width: 101%;
+    height: 1px;
+    background-color: var(--text-color);
+    margin-top: 12px;
+    margin-left: -4px;;
+}
+
+.word-set aside{
+    display: none;
+}
+
+.word-set.active aside{
+    display: block;
+    margin-left: 12px;
+}
+
+.word-set.active .bullet{
+    background-color: var(--text-color);
+}
+
+h1{
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+h3{
+    margin-left: calc(var(--left-margin) + 31px);
+    margin-top: 10px;
+    color: var(--text-color);
+}
+
+p{
+    margin-left: calc(var(--left-margin) + 32px);
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+@media (min-width: 700px) {
+    #glossary-container{
+        margin-left: calc(var(--left-margin) - 17px);
+    }
+
+    .line{
+        width: 102%;
+        background-color: var(--text-color);
+        margin-top: 12px;
+        margin-left: -14px;;
+    }
+
+    .bullet{
+        width: 22.5px;
+        height: 22.5px;
+        margin-top: -12px;
+    }
+
+    h1{
+        margin-left: 30px;
+    }
+
+    h2{
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+
+    h3{
+        margin-left: calc(var(--left-margin) + 42px);
+    }
+    
+    p{
+        margin-left: 75px;
+    }
+}
+
+@media (min-width: 1100px) {
+    :root{
+        /* --header: 15s0px; */
+        /* --header: 170px; */
+    }
+
+    h3{
+        margin-left: calc(var(--left-margin) + 50px);
+    }
+
+    p{
+        max-width: 52ch;
+        margin-left: 75px;
+
+    }
+
+    .bullet{
+        /* background-color: red; */
+        border: 1px var(--text-color) solid;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-top: -15px;
+    }
+}
+

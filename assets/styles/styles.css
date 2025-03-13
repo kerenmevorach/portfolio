@@ -502,15 +502,10 @@ button:hover {
   color: white;
 }
 
-/* #canadatoTop{
-    background-color: red;
-    color: white;
+.canada-buttons {
+  background-color: red;
+  color: white;
 }
-
-#canada-close{
-    background-color: red;
-    color: white;
-} */
 
 .egg-buttons {
   background-color: #f15825;

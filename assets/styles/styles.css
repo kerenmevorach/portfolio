@@ -336,6 +336,11 @@ video {
   border-radius: 8px;
 }
 
+.image-border-2 {
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
 /* .no-top{
     margin-top: 20px;
 } */

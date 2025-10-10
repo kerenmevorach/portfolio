@@ -548,6 +548,11 @@ button:hover {
   color: white;
 }
 
+.amw-buttons {
+  background-color: #561f96;
+  color: white;
+}
+
 /* circle stuff */
 .circle {
   width: var(--circle-size);
@@ -579,6 +584,10 @@ button:hover {
 
 #orange-red {
   background-color: #ff2600;
+}
+
+#dark-purple {
+  background-color: #561f96;
 }
 
 #black {
@@ -745,6 +754,16 @@ aside {
 }
 
 .setthebar-info.active {
+  display: block;
+  animation: fadeIn 0.25s;
+}
+
+.amw-info {
+  display: none;
+  animation: fadeOut 0.2s;
+}
+
+.amw-info.active {
   display: block;
   animation: fadeIn 0.25s;
 }
